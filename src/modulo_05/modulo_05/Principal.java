@@ -20,6 +20,11 @@ public class Principal {
         meuCarro.modelo= "HR-v";
         meuCarro.proprietario=eu;
 
+//        meuCarro.proprietario= new Pessoa();
+//        meuCarro.proprietario.nome= "Emanuel Nascente";
+//        meuCarro.proprietario.cpf="111222";
+//        meuCarro.proprietario.anoNascimento= 1981;
+
 
         Carro seuCarro = new Carro();
         seuCarro.anoFabricacao= 2022;
