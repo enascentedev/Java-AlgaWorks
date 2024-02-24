@@ -17,7 +17,8 @@ public class Principal {
         meuCarro.anoFabricacao=2021;
         meuCarro.cor= "preto";
         meuCarro.fabricante= "Honda";
-        meuCarro.modelo= "HR-v";
+        meuCarro.modelo= "HR-V";
+        meuCarro.precoCompra= 120000;
         meuCarro.proprietario=eu;
 
 //        meuCarro.proprietario= new Pessoa();
@@ -31,21 +32,28 @@ public class Principal {
         seuCarro.cor= "Branco";
         seuCarro.fabricante= "BMW";
         seuCarro.modelo= "X6";
+        seuCarro.precoCompra= 980000;
         seuCarro.proprietario=voce;
 
-        System.out.println("Meu carro");
-        System.out.println("---------");
-        System.out.printf("Modelo: %s%n" , meuCarro.modelo);
-        System.out.printf("Ano: %d%n" , meuCarro.anoFabricacao);
-        System.out.printf("Proprietário: %s%n" , meuCarro.proprietario.nome);
+        double valorRevendaMeuCarro= meuCarro.calcularValorRevenda();
 
-        System.out.println();
 
-        System.out.println("Seu carro");
-        System.out.println("---------");
-        System.out.printf("Modelo: %s%n" , seuCarro.modelo);
-        System.out.printf("Ano: %d%n" , seuCarro.anoFabricacao);
-        System.out.printf("Proprietário: %s%n" , seuCarro.proprietario.nome);
+        meuCarro.imprimirResumoDepreciacao();
+        seuCarro.imprimirResumoDepreciacao();
+
+//        System.out.println("Meu carro");
+//        System.out.println("---------");
+//        System.out.printf("Modelo: %s%n" , meuCarro.modelo);
+//        System.out.printf("Ano: %d%n" , meuCarro.anoFabricacao);
+//        System.out.printf("Proprietário: %s%n" , meuCarro.proprietario.nome);
+//
+//        System.out.println();
+//
+//        System.out.println("Seu carro");
+//        System.out.println("---------");
+//        System.out.printf("Modelo: %s%n" , seuCarro.modelo);
+//        System.out.printf("Ano: %d%n" , seuCarro.anoFabricacao);
+//        System.out.printf("Proprietário: %s%n" , seuCarro.proprietario.nome);
 
     }
 }

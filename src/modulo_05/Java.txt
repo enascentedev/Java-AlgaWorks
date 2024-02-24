@@ -229,6 +229,7 @@ public class TesteEncapsulamento {
 -- ----- ----- -----
 algoworks
 aula 05.01
+
 programação orientada a objetos
 métodos são funções
 tudo é um objeto
@@ -237,6 +238,7 @@ programação funcional os lambdas
 -- ----- ----- -----
 algoworks
 aula 05.02
+
 Tudo são objetos deu exemplo do avião(avião é um objeto, passageiros são objetos)
 classe são descrição de um conjuntos de objetos de mesmo tipo
 atributos: são caracteristicas do objeto
@@ -245,17 +247,20 @@ comportamentos:
 
 algoworks
 aula 05.03
+
 criando classe de carro com atributos
 
 -- ----- ----- -----
 algoworks
 aula 05.04
+
 instanciando objetos
 instanciou dois objetos , os dois da classe carro, baixou uma extensão do intellij, fez o debuger e instanciu a marca do carro pelo debugger
 
 -- ----- ----- -----
 algoworks
 aula 05.05
+
 acessando atributos de objetos
 -- ----- ----- -----
 algoworks
@@ -268,38 +273,110 @@ exercicio
 -- ----- ----- -----
 algoworks
 aula 05.08
-composição de objetos, foi criado um relacionanemnto de classes, na classe ele utilizou a classe Pessoa e adicionou Pessoa proprietaria na classe carro,formando a composição de objetos
+
+composição de objetos, foi criado um relacionanemnto de classes, na classe ele utilizou a classe Pessoa e adicionou Pessoa proprietaria na classe carro,
+formando a composição de objetos
+
 -- ----- ----- -----
 algoworks
 aula 05.09
+
 Atribuindo o objeto da composição
 ele mostrou duas váriaves apontando para o mesmo objeto e 
 
 -- ----- ----- -----
 algoworks
 aula 05.10
+
 Diagrama de classes - associação, agregação e composição
 ele mostrou o diagrama de classes de UML
 
 -- ----- ----- -----
 algoworks
 aula 05.11
+
 Valores padrão e inicialização de variáveis de instância
+quando instanciamos um objeto com new as variáveis de instancia são iniciadas com o valor padrão, ele fez exemplos fazendo isso.
 
 -- ----- ----- -----
 algoworks
 aula 05.12
+
 05.12. Inicialização de objetos em variáveis de instância
+tentou acessar uma váruavel que não existia e deu o erro de exception
 
 -- ----- ----- -----
 algoworks
 aula 05.13
+
 05.13. Caindo a ficha - variáveis referenciam objetos
+só revisou as aulas 11 e 12
 
 -- ----- ----- -----
+algoworks
 aula 05.14
-Atribuindo o objeto da composição
 
+Criando e invocando um método
+criou um método (função) void, na classe carro  que não retorna nada com o nome de calcularValorRevenda que imprimi o modelo e ano de fabricação,
+depois na classe principal chamou o método para meuCarro e seuCarro.
+
+-- ----- ----- -----
+
+algoworks
+aula 05.15
+
+Implementando a lógica do método
+criou variavel de instacia na classe carro  double preçoCompra e atribui ela na classe principal.
+criou uma variavel local dentro do método int tempoDeUsoEmAnos = 2022
+criou uma variavel local valorRevenda = (precoCompra/20) * (20-tempoDeUsoEmAnos); aqui 20 é vidaUtilEmAnos
+depois fez se valorRevenda < 0 então valorRevnda=0 e imprimiu o tempo de uso em anos e valor de revenda(formatado em 6.2)
+
+-- ----- ----- -----
+algoworks
+aula 05.16
+
+IntelliJ IDEA - debug de chamadas de métodos
+ensinou a usar o debuguer de métodos
+
+-- ----- ----- -----
+algoworks
+aula 05.17
+
+Métodos com retorno
+trocou o método calcular venda para double tirando o void, deu return no final do método, tirou o imprimir do método na classe
+carro e levou para a classe principal.
+
+-- ----- ----- -----
+algoworks
+aula 05.18
+
+Implementando métodos menores e evitando duplicação de código
+criou metodo int calcularTempoDeUsoEmAnos dentro da classe carro, retornando o 2022 - ano de fabricacao
+depois criou um método void para imprimirResumoDepreciacao na classe carro, depois só chamou o método na classe principal
+criou o método double calcularIpva que retorna calculoValorRevenda () * 0,04;
+
+-- ----- ----- -----
+algoworks
+aula 05.19
+
+Saindo do método com a cláusula return
+criou uma regra no calculo de ipva se o tempoDeUsoEmAnos for > 10 return 0, pra ficar mais legível ele criou uma
+variável int com o valor do método CalcularTempoDeUsoEmAnos.
+Depois ele usou o return no método void imprimirResumoDepreciacao, ele fez um if se o precoCompra <=0 imprima a mensagem
+"não foi possível imprimir resumo de depreciação" usou o return logo abaixo para sair da função e não executar
+as linhas abaixo.
+
+-- ----- ----- -----
+algoworks
+aula 05.20
+
+Métodos que retornam objetos
+começou um novo projeto, IMC 
+
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----
