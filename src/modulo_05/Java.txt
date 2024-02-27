@@ -369,9 +369,10 @@ as linhas abaixo.
 -- ----- ----- -----
 algoworks
 aula 05.20
-
 Métodos que retornam objetos
-começou um novo projeto, IMC 
+criou um projeto novo para calcular imc, com uma classe principal e uma paciente, criou um método chamado CalcularIndiceMassaCorporal que retorna um double, criou outra classe chamada IndiceMassaCorporal, nessa classe ele retorna o resultado o peso e a altura todos double
+
+depois ele faz um if se imc > 30 colocar mensagem de paciente com altura xx e peso xx está com obesidade
 
 -- ----- ----- -----
 -- ----- ----- -----
