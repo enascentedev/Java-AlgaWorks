@@ -121,7 +121,8 @@ Exercício 2: Implementando uma Interface
 Objetivo: Praticar a implementação de interfaces.
 
 Defina uma interface Animal que inclua o método emitirSom.
-Crie duas classes que implementem esta interface: Cachorro e Gato. Cada classe deve implementar o método emitirSom para retornar um som característico do animal.
+Crie duas classes que implementem esta interface: Cachorro e Gato. Cada classe deve implementar o método emitirSom para
+retornar um som característico do animal.
 No método main, crie objetos de cada uma das classes implementadas e chame o método emitirSom.
 
 interface Animal {
@@ -211,7 +212,8 @@ Objetivo: Praticar o encapsulamento.
 
 Revise a classe Carro do Exercício 1 para garantir que todos os atributos sejam privados.
 Certifique-se de que a única maneira de acessar e modificar esses atributos seja através dos métodos getters e setters.
-Demonstre o encapsulamento criando um objeto Carro, tentando acessar diretamente um atributo (deverá resultar em erro), e então acessando-o através de seu método getter.
+Demonstre o encapsulamento criando um objeto Carro, tentando acessar diretamente um atributo (deverá resultar em erro),
+e então acessando-o através de seu método getter.
 
 // A classe Carro do Exercício 1 já demonstra encapsulamento com atributos privados e acesso por getters e setters.
 // Aqui, tentaremos acessar diretamente um atributo privado (deve resultar em erro se tentar compilar).
@@ -255,7 +257,8 @@ algoworks
 aula 05.04
 
 instanciando objetos
-instanciou dois objetos , os dois da classe carro, baixou uma extensão do intellij, fez o debuger e instanciu a marca do carro pelo debugger
+instanciou dois objetos , os dois da classe carro, baixou uma extensão do intellij, fez o debuger e instanciu a marca do
+carro pelo debugger
 
 -- ----- ----- -----
 algoworks
@@ -274,8 +277,8 @@ exercicio
 algoworks
 aula 05.08
 
-composição de objetos, foi criado um relacionanemnto de classes, na classe ele utilizou a classe Pessoa e adicionou Pessoa proprietaria na classe carro,
-formando a composição de objetos
+composição de objetos, foi criado um relacionanemnto de classes, na classe ele utilizou a classe Pessoa e adicionou
+Pessoa proprietaria na classe carro, formando a composição de objetos
 
 -- ----- ----- -----
 algoworks
@@ -329,7 +332,7 @@ Implementando a lógica do método
 criou variavel de instacia na classe carro  double preçoCompra e atribui ela na classe principal.
 criou uma variavel local dentro do método int tempoDeUsoEmAnos = 2022
 criou uma variavel local valorRevenda = (precoCompra/20) * (20-tempoDeUsoEmAnos); aqui 20 é vidaUtilEmAnos
-depois fez se valorRevenda < 0 então valorRevnda=0 e imprimiu o tempo de uso em anos e valor de revenda(formatado em 6.2)
+fez se valorRevenda < 0 então valorRevnda=0 e imprimiu o tempo de uso em anos e valor de revenda(formatado em 6.2)
 
 -- ----- ----- -----
 algoworks
@@ -343,8 +346,8 @@ algoworks
 aula 05.17
 
 Métodos com retorno
-trocou o método calcular venda para double tirando o void, deu return no final do método, tirou o imprimir do método na classe
-carro e levou para a classe principal.
+trocou o método calcular venda para double tirando o void, deu return no final do método, tirou o imprimir do método na
+classe carro e levou para a classe principal.
 
 -- ----- ----- -----
 algoworks
@@ -352,8 +355,8 @@ aula 05.18
 
 Implementando métodos menores e evitando duplicação de código
 criou metodo int calcularTempoDeUsoEmAnos dentro da classe carro, retornando o 2022 - ano de fabricacao
-depois criou um método void para imprimirResumoDepreciacao na classe carro, depois só chamou o método na classe principal
-criou o método double calcularIpva que retorna calculoValorRevenda () * 0,04;
+depois criou um método void para imprimirResumoDepreciacao na classe carro, depois só chamou o método na classe
+principal criou o método double calcularIpva que retorna calculoValorRevenda () * 0,04;
 
 -- ----- ----- -----
 algoworks
@@ -370,14 +373,41 @@ as linhas abaixo.
 algoworks
 aula 05.20
 Métodos que retornam objetos
-criou um projeto novo para calcular imc, com uma classe principal e uma paciente, criou um método chamado CalcularIndiceMassaCorporal que retorna um double, criou outra classe chamada IndiceMassaCorporal, nessa classe ele retorna o resultado o peso e a altura todos double
+criou um projeto novo para calcular imc, com uma classe principal e uma calculadoraImc, criou um método chamado
+CalcularIndiceMassaCorporal que retorna um double, criou outra classe chamada IndiceMassaCorporal, nessa classe ele
+retorna o resultado o peso e a altura todos double
 
-depois ele faz um if se imc > 30 colocar mensagem de paciente com altura xx e peso xx está com obesidade
+depois ele faz um if se imc > 30 colocar mensagem de calculadoraImc com altura xx e peso xx está com obesidade
 
 -- ----- ----- -----
+algoworks
+aula 05.21
+Refatorando para tornar uma classe mais rica
+não deixar nunca uma classe anemica, criar um método boolean estaComObesidade e um estaAbaixoDoPesoIdeal na classe
+indiceMassaCorporal, chamar o método no if da classe principal, nesse método vamos definir quando ele vai retornar
+(return resultado >=30;), e na classe principal chamamos o método e imprimi na tela a mensagem conforme o método
 -- ----- ----- -----
+algoworks
+aula 05.22
+Discutindo nome e responsabilidade da classe Paciente
+renomeou os nomes da classe paciente para CalculadoraImc e mudou o nome do método para Calcular
 -- ----- ----- -----
+algoworks
+aula 05.23
+Métodos com argumentos
+passou as variavéis como argumento no método CalculadoraImc e na classe principal
 -- ----- ----- -----
+algoworks
+aula 05.24
+Passando objetos como argumentos de métodos
+-criou uma classe chamada Paciente e declarou duas variavéis de instancia de peso e altura
+-Na classe calculadoraImc vamos passar o objeto como parametro para o método, no inicio do parametro sempre declaramos o tipo , que nesse caso
+é uma classe (Paciente) o tipo de parametro e em seguida especificamos o nome da variavel que vai ser criada assim que o métodod for infocado
+que vai chamar paciente (poderia ser qualquer nome).
+- substituir o calculo do imc.resultado= (pra acessar o objeto paciente.peso e paciente.altura)
+- Na classe principal vamos declarar uma variável local chamada joão que é um new Paciente
+-Depois passamos joão como paramtero para o método de IndiceMassaCorporal
+
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----

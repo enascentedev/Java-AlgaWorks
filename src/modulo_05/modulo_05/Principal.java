@@ -13,7 +13,7 @@ public class Principal {
         voce.anoNascimento=1981;
 
 
-        Carro meuCarro = new Carro();
+        Carro meuCarro = new Carro ();
         meuCarro.anoFabricacao=2021;
         meuCarro.cor= "preto";
         meuCarro.fabricante= "Honda";

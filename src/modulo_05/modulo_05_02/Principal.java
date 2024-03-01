@@ -1,59 +1,26 @@
-package modulo_05.modulo_05;
+package modulo_05.modulo_05_02;
 
 public class Principal {
     public static void main(String[] args) {
-        Pessoa eu= new Pessoa();
-        eu.nome="Emanuel";
-        eu.cpf="111222";
-        eu.anoNascimento=1991;
+       CalculadoraImc calculadoraImc = new CalculadoraImc();
 
-        Pessoa voce= new Pessoa();
-        voce.nome="professor";
-        voce.cpf="333444";
-        voce.anoNascimento=1981;
+        Paciente joao=new Paciente();
+
+        joao.peso = 75;
+        joao.altura = 1.82;
 
 
-        Carro meuCarro = new Carro();
-        meuCarro.anoFabricacao=2021;
-        meuCarro.cor= "preto";
-        meuCarro.fabricante= "Honda";
-        meuCarro.modelo= "HR-V";
-        meuCarro.precoCompra= 120000;
-        meuCarro.proprietario=eu;
+     IndiceMassaCorporal imc= calculadoraImc.Calcular(joao);
 
-//        meuCarro.proprietario= new Pessoa();
-//        meuCarro.proprietario.nome= "Emanuel Nascente";
-//        meuCarro.proprietario.cpf="111222";
-//        meuCarro.proprietario.anoNascimento= 1981;
+     if(imc.estaComObesidade()){
 
+         System.out.printf("Paciente com altura de %.2f %n e peso de %.2f"+ "está com obesidade", imc.altura, imc.peso);
+     }
+     if(imc.estaAbaixoDoPesoIdeal()){
 
-        Carro seuCarro = new Carro();
-        seuCarro.anoFabricacao= 2022;
-        seuCarro.cor= "Branco";
-        seuCarro.fabricante= "BMW";
-        seuCarro.modelo= "X6";
-        seuCarro.precoCompra= 980000;
-        seuCarro.proprietario=voce;
+         System.out.printf("Paciente com altura de %.2f  e peso de %.2f "+ "está abaixo do peso ", imc.altura, imc.peso);
+        }
 
-        double valorRevendaMeuCarro= meuCarro.calcularValorRevenda();
-
-
-        meuCarro.imprimirResumoDepreciacao();
-        seuCarro.imprimirResumoDepreciacao();
-
-//        System.out.println("Meu carro");
-//        System.out.println("---------");
-//        System.out.printf("Modelo: %s%n" , meuCarro.modelo);
-//        System.out.printf("Ano: %d%n" , meuCarro.anoFabricacao);
-//        System.out.printf("Proprietário: %s%n" , meuCarro.proprietario.nome);
-//
-//        System.out.println();
-//
-//        System.out.println("Seu carro");
-//        System.out.println("---------");
-//        System.out.printf("Modelo: %s%n" , seuCarro.modelo);
-//        System.out.printf("Ano: %d%n" , seuCarro.anoFabricacao);
-//        System.out.printf("Proprietário: %s%n" , seuCarro.proprietario.nome);
-
+        System.out.printf("IMC: %.2f %n", imc.resultado);
     }
 }
