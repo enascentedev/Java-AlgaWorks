@@ -407,10 +407,27 @@ que vai chamar paciente (poderia ser qualquer nome).
 - substituir o calculo do imc.resultado= (pra acessar o objeto paciente.peso e paciente.altura)
 - Na classe principal vamos declarar uma variável local chamada joão que é um new Paciente
 -Depois passamos joão como paramtero para o método de IndiceMassaCorporal
+-- ----- ----- -----
+algoworks
+aula 05.25
+exercicio
 
 -- ----- ----- -----
+algoworks
+aula 05.26
+Diagrama de  classes - métodos e dependências
+fez o diagrama Uml das classes e métodos do programa
 -- ----- ----- -----
+algoworks
+aula 05.27
+Métodos que alteram variável de instância
+criou outro programa com duas classes,uma chamada principal e outra chamada aeronave
+e  criou metodos  como CalcularAssentosDisponiveis, reservarAssentos, que alteram as váriaveis de instancia totalAssentos , assentosResarvados e ativo e desativado
 -- ----- ----- -----
+algoworks
+aula 05.28
+Métodos que alteram o valor de parâmetro do tipo primitivo
+rever com augusto
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----

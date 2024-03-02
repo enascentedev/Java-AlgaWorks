@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="aulas 8 e 9">
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/modulo_05_02/CalculadoraImc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/modulo_05_02/Paciente.java" afterDir="false" />
+    <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="aulas 21,22,23,24">
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/Precificacao/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/Precificacao/ServicoDePrecificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/companhia_aerea/Aeronave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/companhia_aerea/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modulo_05/Java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/Java.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/modulo_05/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/modulo_05/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/modulo_05_02/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/modulo_05_02/IndiceMassaCorporal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/modulo_05_02/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/modulo_05_02/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/modulo_05_02/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +36,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Principal.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Principal_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteReferencias.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.modulo_05.modulo_05.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.modulo_05.modulo_05_02.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;05/07&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/desafio-java/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.Principal_2.executor": "Run",
+    "Application.TesteReferencias.executor": "Debug",
+    "Application.modulo_05.companhia_aerea.Principal.executor": "Run",
+    "Application.modulo_05.modulo_05.Principal.executor": "Run",
+    "Application.modulo_05.modulo_05_02.Principal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "05/07",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/desafio-java/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.modulo_05.modulo_05_02.Principal">
+}]]></component>
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio5_25.Main" />
       <module name="desafio-java" />
@@ -70,11 +69,11 @@
       </method>
     </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio5_07.Principal" />
+      <option name="MAIN_CLASS_NAME" value="modulo_05.Precificacao.Principal" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.exercicio5_07.*" />
+          <option name="PATTERN" value="modulo_05.Precificacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteReferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.modulo_05.TesteReferencias" />
+    <configuration name="modulo_05.companhia_aerea.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_05.companhia_aerea.Principal" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.modulo_05.*" />
+          <option name="PATTERN" value="modulo_05.companhia_aerea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.modulo_05.companhia_aerea.Principal" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.modulo_05.modulo_05_02.Principal" />
         <item itemvalue="Application.modulo_05.modulo_05.Principal" />
-        <item itemvalue="Application.modulo_05.modulo_05.Principal" />
-        <item itemvalue="Application.TesteReferencias" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +167,9 @@
       <workItem from="1708787660905" duration="12234000" />
       <workItem from="1709030885050" duration="3801000" />
       <workItem from="1709162675226" duration="2282000" />
-      <workItem from="1709252451539" duration="5510000" />
+      <workItem from="1709252451539" duration="5719000" />
+      <workItem from="1709293529489" duration="3101000" />
+      <workItem from="1709402299627" duration="4708000" />
     </task>
     <task id="LOCAL-00001" summary="05.07. Exercicio e organização das pastas">
       <option name="closed" value="true" />
@@ -202,7 +203,31 @@
       <option name="project" value="LOCAL" />
       <updated>1708565509904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aulas 21,22,23,24">
+      <option name="closed" value="true" />
+      <created>1709258012660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709258012661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="aulas 21,22,23,24">
+      <option name="closed" value="true" />
+      <created>1709258022080</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709258022080</updated>
+    </task>
+    <task id="LOCAL-00007" summary="aulas 21,22,23,24">
+      <option name="closed" value="true" />
+      <created>1709258078996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709258078996</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +249,8 @@
     <MESSAGE value="05.07. Exercicio e organização das pastas" />
     <MESSAGE value="05.07. Exercicio execução" />
     <MESSAGE value="aulas 8 e 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="aulas 8 e 9" />
+    <MESSAGE value="aulas 21,22,23,24" />
+    <option name="LAST_COMMIT_MESSAGE" value="aulas 21,22,23,24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,6 +269,11 @@
           <url>file://$PROJECT_DIR$/src/modulo_05/exercicio5_07/Principal.java</url>
           <line>5</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/modulo_05/Precificacao/Principal.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/modulo_05/exercicio5_07/Cachorro.java</url>
