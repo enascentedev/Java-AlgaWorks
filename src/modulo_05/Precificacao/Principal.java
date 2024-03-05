@@ -2,12 +2,12 @@ package modulo_05.Precificacao;
 
 public class Principal {
     public static void main(String[] args) {
-        double precoCompraFornecedor= 140;
+        Produto produto= new Produto();
+        produto.precoCusto=100;
 
-        ServicoDePrecificacao servicoDePrecificacao= new ServicoDePrecificacao();
-        servicoDePrecificacao.calcularPrecoVenda(precoCompraFornecedor);
-
-        System.out.printf("Preço: %.2f%n", precoCompraFornecedor);
+        ServicoDePrecificacao servicoDePrecificacao = new ServicoDePrecificacao();
+        servicoDePrecificacao.definirPrecoVenda(produto,20);
+        System.out.printf("Preço de venda : %.2f%n", produto.precoVenda);
     }
 
 }

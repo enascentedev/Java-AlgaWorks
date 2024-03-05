@@ -1,7 +1,7 @@
 package modulo_05.Precificacao;
 
 public class ServicoDePrecificacao {
-    void calcularPrecoVenda(double precoCusto){
-        precoCusto= precoCusto * 1.20;
+    void definirPrecoVenda(Produto produto, double percentualMargemLucro){
+        produto.precoVenda= produto.precoCusto*((percentualMargemLucro/100)+1);
     }
 }
