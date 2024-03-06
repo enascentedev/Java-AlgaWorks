@@ -231,20 +231,26 @@ public class TesteEncapsulamento {
 -- ----- ----- -----
 algoworks
 aula 05.01
-
+O paradigma da Programação Orientada a Objetos (POO)
 programação orientada a objetos
-métodos são funções
-tudo é um objeto
+atributo são as caracteristicas dos objetos.
+métodos (ou funções) são ações que o objeto pode executar.
+
+tudo é um objeto menos os tipos primitivos (tipo básico analisar modulo 02 aula 12)
 programação funcional os lambdas
 
 -- ----- ----- -----
 algoworks
 aula 05.02
+Entendendo o conceito de classes e objetos
 
 Tudo são objetos deu exemplo do avião(avião é um objeto, passageiros são objetos)
 classe são descrição de um conjuntos de objetos de mesmo tipo
 atributos: são caracteristicas do objeto
-comportamentos:
+comportamentos: são os métodos (que são igual funções do javascript)
+cachorro é classe
+raça e cor são atributos
+latir morder são os métodos
 -- ----- ----- -----
 
 algoworks
@@ -255,6 +261,7 @@ criando classe de carro com atributos
 -- ----- ----- -----
 algoworks
 aula 05.04
+instanciar objeto é toda vez que : Cachorro cachorro1= new Cachorro ();
 
 instanciando objetos
 instanciou dois objetos , os dois da classe carro, baixou uma extensão do intellij, fez o debuger e instanciu a marca do
@@ -265,6 +272,8 @@ algoworks
 aula 05.05
 
 acessando atributos de objetos
+cachorro1.raca = "viralata";
+
 -- ----- ----- -----
 algoworks
 aula 05.06
@@ -285,7 +294,8 @@ algoworks
 aula 05.09
 
 Atribuindo o objeto da composição
-ele mostrou duas váriaves apontando para o mesmo objeto e 
+ele mostrou duas váriaves apontando para o mesmo objeto
+(fazer exercicios da lista para praticar )
 
 -- ----- ----- -----
 algoworks
@@ -305,14 +315,15 @@ quando instanciamos um objeto com new as variáveis de instancia são iniciadas 
 algoworks
 aula 05.12
 
-05.12. Inicialização de objetos em variáveis de instância
-tentou acessar uma váruavel que não existia e deu o erro de exception
+Inicialização de objetos em variáveis de instância
+tentou acessar uma variável que não existia e deu o erro de exception
 
 -- ----- ----- -----
 algoworks
 aula 05.13
+Cachorro cachorro1= new Cachorro();
 
-05.13. Caindo a ficha - variáveis referenciam objetos
+Caindo a ficha - variáveis referenciam objetos
 só revisou as aulas 11 e 12
 
 -- ----- ----- -----
@@ -329,7 +340,7 @@ algoworks
 aula 05.15
 
 Implementando a lógica do método
-criou variavel de instacia na classe carro  double preçoCompra e atribui ela na classe principal.
+criou variavel local na classe carro  double preçoCompra e atribui ela na classe principal.
 criou uma variavel local dentro do método int tempoDeUsoEmAnos = 2022
 criou uma variavel local valorRevenda = (precoCompra/20) * (20-tempoDeUsoEmAnos); aqui 20 é vidaUtilEmAnos
 fez se valorRevenda < 0 então valorRevnda=0 e imprimiu o tempo de uso em anos e valor de revenda(formatado em 6.2)
@@ -338,14 +349,14 @@ fez se valorRevenda < 0 então valorRevnda=0 e imprimiu o tempo de uso em anos e
 algoworks
 aula 05.16
 
-IntelliJ IDEA - debug de chamadas de métodos
+IntelliJ IDEA - debug de chamadas de métodos:
 ensinou a usar o debuguer de métodos
 
 -- ----- ----- -----
 algoworks
 aula 05.17
 
-Métodos com retorno
+Métodos com retorno:
 trocou o método calcular venda para double tirando o void, deu return no final do método, tirou o imprimir do método na
 classe carro e levou para a classe principal.
 
@@ -353,7 +364,7 @@ classe carro e levou para a classe principal.
 algoworks
 aula 05.18
 
-Implementando métodos menores e evitando duplicação de código
+Implementando métodos menores e evitando duplicação de código:
 criou metodo int calcularTempoDeUsoEmAnos dentro da classe carro, retornando o 2022 - ano de fabricacao
 depois criou um método void para imprimirResumoDepreciacao na classe carro, depois só chamou o método na classe
 principal criou o método double calcularIpva que retorna calculoValorRevenda () * 0,04;
@@ -406,7 +417,7 @@ Passando objetos como argumentos de métodos
 que vai chamar paciente (poderia ser qualquer nome).
 - substituir o calculo do imc.resultado= (pra acessar o objeto paciente.peso e paciente.altura)
 - Na classe principal vamos declarar uma variável local chamada joão que é um new Paciente
--Depois passamos joão como paramtero para o método de IndiceMassaCorporal
+-Depois passamos joão como parametero para o método de IndiceMassaCorporal
 -- ----- ----- -----
 algoworks
 aula 05.25
@@ -467,11 +478,26 @@ aula 05.34
 Método estático acessando membro de instância
 
 -- ----- ----- -----
+algoworks
+Desafio pdf 05.35
 
 -- ----- ----- -----
--- ----- ----- -----
+algoworks
+aula 05.36
+Declarando constantes com static e final
 
 -- ----- ----- -----
+algoworks
+aula 05.37
+Modificador final em variáveis locais
+-- ----- ----- -----
+algoworks
+aula 05.38
+Sobrecarga de métodos
+-- ----- ----- -----
+algoworks
+aula 05.39
+Inferência de tipo de variável local
 
 -- ----- ----- -----
 -- ----- ----- -----
