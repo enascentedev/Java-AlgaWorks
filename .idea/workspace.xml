@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="aulas 29,30,31,32,33,34">
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicios_fixacao/exercicio1/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicios_fixacao/exercicio2/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicios_fixacao/exercicio3/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicios_fixacao/exercicio4/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/Java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/Java.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,31 +35,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Principal_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteReferencias.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.modulo_05.companhia_aerea.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.modulo_05.modulo_05.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.modulo_05.modulo_05_02.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;05/07&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/desafio-java/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.Principal_2.executor": "Run",
+    "Application.TesteReferencias.executor": "Debug",
+    "Application.modulo_05.companhia_aerea.Principal.executor": "Run",
+    "Application.modulo_05.exercicios_fixacao.exercicio1.Principal.executor": "Run",
+    "Application.modulo_05.exercicios_fixacao.exercicio2.Principal.executor": "Run",
+    "Application.modulo_05.modulo_05.Principal.executor": "Run",
+    "Application.modulo_05.modulo_05_02.Principal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "05/07",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/desafio-java/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Principal">
+}]]></component>
+  <component name="RunManager" selected="Application.modulo_05.exercicios_fixacao.exercicio2.Principal">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio5_25.Main" />
       <module name="desafio-java" />
@@ -90,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modulo_05.modulo_05_02.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.modulo_05_02.Principal" />
+    <configuration name="modulo_05.exercicios_fixacao.exercicio1.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicios_fixacao.exercicio1.Principal" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.modulo_05_02.*" />
+          <option name="PATTERN" value="modulo_05.exercicios_fixacao.exercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modulo_05.modulo_05.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.modulo_05.Principal" />
+    <configuration name="modulo_05.exercicios_fixacao.exercicio2.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicios_fixacao.exercicio2.Principal" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.modulo_05.*" />
+          <option name="PATTERN" value="modulo_05.exercicios_fixacao.exercicio2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modulo_05.exercicios_fixacao.exercicio2.Principal" />
+        <item itemvalue="Application.modulo_05.exercicios_fixacao.exercicio1.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.modulo_05.companhia_aerea.Principal" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.modulo_05.modulo_05_02.Principal" />
-        <item itemvalue="Application.modulo_05.modulo_05.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +173,9 @@
       <workItem from="1709402299627" duration="4708000" />
       <workItem from="1709420309007" duration="3366000" />
       <workItem from="1709594167830" duration="5440000" />
-      <workItem from="1709681529704" duration="5630000" />
+      <workItem from="1709681529704" duration="5633000" />
+      <workItem from="1709745489623" duration="770000" />
+      <workItem from="1709767069558" duration="5637000" />
     </task>
     <task id="LOCAL-00001" summary="05.07. Exercicio e organização das pastas">
       <option name="closed" value="true" />
