@@ -1,4 +1,5 @@
 package modulo_05.exercicio_OO.exercicio_2;
+
 /*
 1) Criar a classe Pessoa com as seguintes características:
 • atributos: idade e dia, mês e ano de nascimento, nome da pessoa
@@ -21,20 +22,20 @@ public class Pessoa {
     int anoDeNascimento;
     String nome;
 
-    public Pessoa(String nome,int dia, int mes, int ano) {
-        this.diaDeNascimento=dia;
-        this.nome= nome;
+    public Pessoa(String nome, int dia, int mes, int ano) {
+        this.diaDeNascimento = dia;
+        this.nome = nome;
     }
 
-    void calculaIdade(int diaAtual, int mesAtual, int anoAtual){
-        idade= anoAtual - anoDeNascimento;
+    void calculaIdade(int diaAtual, int mesAtual, int anoAtual) {
+        idade = anoAtual - anoDeNascimento;
         if (mesAtual < this.mesDeNascimento || (mesAtual == this.mesDeNascimento && diaAtual < this.diaDeNascimento)) {
             idade--;
         }
 
     }
 
-    public int informaIdade(){
+    public int informaIdade() {
         return this.idade;
     }
 
@@ -42,10 +43,10 @@ public class Pessoa {
         return this.nome;
     }
 
-    void ajustaDataDeNascimento(int dia, int mes, int ano){
-        this.diaDeNascimento=dia;
-        this.mesDeNascimento=mes;
-        this.anoDeNascimento=ano;
+    void ajustaDataDeNascimento(int dia, int mes, int ano) {
+        this.diaDeNascimento = dia;
+        this.mesDeNascimento = mes;
+        this.anoDeNascimento = ano;
 
     }
 

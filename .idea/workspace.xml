@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="exercicios de POO" />
+    <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="exercicios de POO">
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_3/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_3/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_3/Universidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Departamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Universidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Controle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_6/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/Java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/Java.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Principal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +46,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Controle.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.Principal_2.executor": "Run",
     "Application.TesteReferencias.executor": "Debug",
     "Application.modulo_05.companhia_aerea.Principal.executor": "Run",
     "Application.modulo_05.exercicio_OO.exercicio_1.Principal.executor": "Run",
+    "Application.modulo_05.exercicio_OO.exercicio_2.Principal.executor": "Run",
+    "Application.modulo_05.exercicio_OO.exercicio_3.Principal.executor": "Run",
     "Application.modulo_05.exercicios_fixacao.exercicio1.Principal.executor": "Run",
     "Application.modulo_05.exercicios_fixacao.exercicio2.Principal.executor": "Run",
     "Application.modulo_05.modulo_05.Principal.executor": "Run",
@@ -61,26 +79,13 @@
       <recent name="modulo_05.exercicio_OO.exercicio_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.modulo_05.exercicio_OO.exercicio_1_calculoIdade.Principal">
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.Precificacao.Principal" />
+  <component name="RunManager" selected="Application.Controle">
+    <configuration name="Controle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_5.Controle" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.Precificacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="modulo_05.companhia_aerea.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.companhia_aerea.Principal" />
-      <module name="desafio-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modulo_05.companhia_aerea.*" />
+          <option name="PATTERN" value="modulo_05.exercicio_OO.exercicio_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modulo_05.exercicios_fixacao.exercicio1.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicios_fixacao.exercicio1.Principal" />
+    <configuration name="modulo_05.exercicio_OO.exercicio_2.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_2.Principal" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.exercicios_fixacao.exercicio1.*" />
+          <option name="PATTERN" value="modulo_05.exercicio_OO.exercicio_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modulo_05.exercicio_OO.exercicio_3.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_3.Principal" />
+      <module name="desafio-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo_05.exercicio_OO.exercicio_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_1_calculoIdade.Principal" />
+        <item itemvalue="Application.Controle" />
+        <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_3.Principal" />
         <item itemvalue="Application.modulo_05.exercicios_fixacao.exercicio2.Principal" />
-        <item itemvalue="Application.modulo_05.exercicios_fixacao.exercicio1.Principal" />
-        <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.modulo_05.companhia_aerea.Principal" />
+        <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_2.Principal" />
+        <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_1_calculoIdade.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +188,10 @@
       <workItem from="1709745489623" duration="770000" />
       <workItem from="1709767069558" duration="5637000" />
       <workItem from="1709837016204" duration="3694000" />
-      <workItem from="1709853244739" duration="5507000" />
+      <workItem from="1709853244739" duration="6187000" />
+      <workItem from="1710073368794" duration="5392000" />
+      <workItem from="1710208013704" duration="3439000" />
+      <workItem from="1710290919606" duration="5158000" />
     </task>
     <task id="LOCAL-00001" summary="05.07. Exercicio e organização das pastas">
       <option name="closed" value="true" />
@@ -260,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709859104754</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="exercicios de POO">
+      <option name="closed" value="true" />
+      <created>1709859166343</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709859166343</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
