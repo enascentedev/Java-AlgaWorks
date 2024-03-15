@@ -1,4 +1,13 @@
 package modulo_05.exercicio_OO.exercicio_5;
+/*
+ Fazer uma classe Aluno que possua as seguintes características:
+• dois atributos do tipo inteiro: primeira nota parcial (de 0 a 100) e Segunda
+nota parcial (de 0 a 100)
+• um atributo String representando o nome do aluno
+• possua métodos para ler e escrever os atributos (ou uma construtora)
+
+
+ */
 
 public class Aluno {
     float primeiraNotaParcial;

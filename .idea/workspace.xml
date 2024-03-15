@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="exercicios de POO">
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_3/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_3/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_3/Universidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Departamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_4/Universidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Controle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_6/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/Java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/Java.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_2/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Controle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio_OO/exercicio_5/Controle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,42 +33,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Controle.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Principal.executor": "Run",
-    "Application.Principal_2.executor": "Run",
-    "Application.TesteReferencias.executor": "Debug",
-    "Application.modulo_05.companhia_aerea.Principal.executor": "Run",
-    "Application.modulo_05.exercicio_OO.exercicio_1.Principal.executor": "Run",
-    "Application.modulo_05.exercicio_OO.exercicio_2.Principal.executor": "Run",
-    "Application.modulo_05.exercicio_OO.exercicio_3.Principal.executor": "Run",
-    "Application.modulo_05.exercicios_fixacao.exercicio1.Principal.executor": "Run",
-    "Application.modulo_05.exercicios_fixacao.exercicio2.Principal.executor": "Run",
-    "Application.modulo_05.modulo_05.Principal.executor": "Run",
-    "Application.modulo_05.modulo_05_02.Principal.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "05/07",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/desafio-java/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Controle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteReferencias.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.modulo_05.companhia_aerea.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo_05.exercicio_OO.exercicio_1.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo_05.exercicio_OO.exercicio_2.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo_05.exercicio_OO.exercicio_3.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo_05.exercicios_fixacao.exercicio1.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo_05.exercicios_fixacao.exercicio2.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo_05.modulo_05.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo_05.modulo_05_02.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/Java-AlgaWorks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/desafio-java/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="modulo_05.exercicio_OO.exercicio_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Controle">
+  <component name="RunManager" selected="Application.modulo_05.exercicio_OO.exercicio_3.Principal">
     <configuration name="Controle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_5.Controle" />
       <module name="desafio-java" />
@@ -147,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Controle" />
         <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_3.Principal" />
+        <item itemvalue="Application.Controle" />
         <item itemvalue="Application.modulo_05.exercicios_fixacao.exercicio2.Principal" />
         <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_2.Principal" />
         <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_1_calculoIdade.Principal" />
@@ -191,7 +181,8 @@
       <workItem from="1709853244739" duration="6187000" />
       <workItem from="1710073368794" duration="5392000" />
       <workItem from="1710208013704" duration="3439000" />
-      <workItem from="1710290919606" duration="5158000" />
+      <workItem from="1710290919606" duration="5326000" />
+      <workItem from="1710458427604" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="05.07. Exercicio e organização das pastas">
       <option name="closed" value="true" />
