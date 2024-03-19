@@ -1,0 +1,43 @@
+## ----- ----- -----
+
+Estudos: Java
+Author: Emanuel
+
+-- ----- ----- -----
+algoworks
+06.01. Boas práticas com Effective Java e Clean Code
+falou sobre os dois livros que ajudam na questão de boas práticas de programação java
+-- ----- ----- -----
+algoworks
+06.02. Código Limpo - escolha bons nomes
+Sempre usar bons nomes para definir classes.
+Pensar sempre que futuramente vamos ler novamente o código que estamos escrevendo e o nome escolhido tem que ser de acordo com o contexto da aplicação para lembrarmos no futuro.
+
+
+-- ----- ----- -----
+
+algoworks
+06.03. Código Limpo - tamanho e organização de classes
+
+classes devem ser pequenas,classes não são medidas somente pelo número de linhas e sim pelas suas responsabilidades.
+classes devem ter apenas uma responsabilidade
+primeiro variáveis depois métodos
+
+-- ----- ----- -----
+algoworks
+06.04. Código Limpo - comentários no código
+comentários devem fazer sentido
+
+-- ----- ----- -----
+06.05. Código Limpo - métodos pequenos e que fazem só uma coisa
+na prática pegou um método que tinha várias operações diferentes dentro dele e separou em vários métodos 
+dividindo as responsabilidades
+
+-- ----- ----- -----
+06.06. Código Limpo - pensando melhor nos argumentos de métodos
+sempre se questionar sobre os números de argumentos dos métodos 
+-- ----- ----- -----
+06.07. Boas práticas - valide os argumentos
+mostrou um exemplo de um método chamdo gerar pedido e como argumento o endereço de entrega, vai haver momentos que o cliente vai buscar o pedido 
+e não tera endereço de entrega e não é correto passar um parâmetro como null, então pode dividr em dois métosos usando um método private que só pode ser acessado dentro da classe
+-- ----- ----- -----
