@@ -1,0 +1,44 @@
+## ----- ----- -----
+
+Estudos: Java
+Author: Emanuel
+
+-- ----- ----- -----
+algoworks
+07.01. Usando classes wrapper
+tipos primitivos não recebem null e os wrappers resolvem isso
+Em Java, tipos primitivos como int, double, char, etc., não podem receber valores null porque são tipos de dados básicos que armazenam valores diretos. Por outro lado, as classes wrapper em Java são classes que encapsulam um tipo primitivo dentro de um objeto, permitindo que esses tipos possam ser tratados como objetos. Uma vantagem disso é que objetos podem receber null, o que significa que as classes wrapper podem ser usadas para representar um tipo primitivo que pode ser null.
+byte → Byte
+short → Short
+int → Integer
+long → Long
+float → Float
+double → Double
+char → Character
+boolean → Boolean
+
+-- ----- ----- -----
+algoworks
+
+07.02. Métodos de conversão.
+valueOf(): Converte um valor primitivo ou uma string para o respectivo tipo de objeto wrapper. Por exemplo, Integer.valueOf(5) retorna um objeto Integer representando o valor 5.
+parseXXX(): Converte uma string para o respectivo tipo primitivo. Por exemplo, Integer.parseInt("123") retorna o valor primitivo int 123. Cada classe wrapper (exceto Character) possui um método parseXXX correspondente.
+toString(): Converte o valor do objeto wrapper para uma string. Por exemplo, Integer.toString(10) retorna a string "10".
+xxxValue(): Converte o valor do objeto wrapper para um tipo primitivo específico. Por exemplo, new Integer(5).intValue() retorna o valor primitivo int 5. Cada classe wrapper tem métodos como intValue(), doubleValue(), etc., para converter para o tipo primitivo correspondente.
+
+-- ----- ----- -----
+07.03. Autoboxing e unboxing
+
+Autoboxing é a conversão automática que o Java faz de tipos primitivos para seus respectivos objetos wrapper. Unboxing é o processo inverso, convertendo objetos wrapper para tipos primitivos. Esses mecanismos facilitam a integração entre operações com tipos primitivos e a manipulação de objetos, tornando o código mais limpo e menos propenso a erros.
+Unboxing é a conversão automática de um objeto wrapper para seu correspondente tipo primitivo em Java, facilitando operações que requerem valores primitivos a partir de objetos.
+
+
+-- ----- ----- -----
+07.04. Comparando wrappers
+
+Em Java, a classe Integer armazena internamente valores de -128 a 127 para otimização de memória. Para valores fora deste intervalo, como 128, novos objetos são criados. Comparar Integer com == checa referências, podendo falhar fora do intervalo cacheado, enquanto .equals() compara valores, sendo o método correto para igualdade de números.
+
+-- ----- ----- -----
+07.06. Boas práticas - prefira tipos primitivos a wrappers
+Utilizar tipos primitivos em Java é preferível a usar wrappers devido ao menor uso de memória, maior velocidade de execução e ausência de risco de NullPointerException. Os primitivos são mais simples de gerenciar, pois não têm a sobrecarga associada aos objetos. Wrappers são úteis em coleções genéricas ou quando precisamos de um valor null para representar a ausência de um valor.
+
