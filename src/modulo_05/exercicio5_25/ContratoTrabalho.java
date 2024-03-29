@@ -1,52 +1,45 @@
 package modulo_05.exercicio5_25;
 
 public class ContratoTrabalho {
-    private Funcionario funcionario;
-    private double HoraNormal;
-    private double HorasExtra;
-    private double horasNormaisTrabalhadas;
-    private double horasExtrasTrabalhadas;
 
-    public double getHorasNormaisTrabalhadas() {
-        return horasNormaisTrabalhadas;
+
+    Funcionario funcionario;
+    int horaNormal;
+    int horaextra;
+
+    public ContratoTrabalho(int quantidadeHoraNormal, int quantidadeHoraExtra) {
+        this.quantidadeHoraNormal = quantidadeHoraNormal;
+        this.quantidadeHoraExtra = quantidadeHoraExtra;
     }
 
-    public void setHorasNormaisTrabalhadas(double horasNormaisTrabalhadas) {
-        this.horasNormaisTrabalhadas = horasNormaisTrabalhadas;
+    int quantidadeHoraNormal;
+    int quantidadeHoraExtra;
+
+    public int getQuantidadeHoraNormal() {
+        return quantidadeHoraNormal;
     }
 
-    public double getHorasExtrasTrabalhadas() {
-        return horasExtrasTrabalhadas;
+    public int getQuantidadeHoraExtra() {
+        return quantidadeHoraExtra;
     }
 
-    public void setHorasExtrasTrabalhadas(double horasExtrasTrabalhadas) {
-        this.horasExtrasTrabalhadas = horasExtrasTrabalhadas;
+    public ContratoTrabalho(int horaNormal, int horaextra, int quantidadeHoraNormal, int quantidadeHoraExtra) {
+        this.horaNormal = horaNormal;
+        this.horaextra = horaextra;
+
+    }
+
+    public int getHoraNormal() {
+        return horaNormal;
+    }
+
+    public int getHoraextra() {
+        return horaextra;
     }
 
     public Funcionario getFuncionario() {
         return funcionario;
     }
 
-    public void setFuncionario(Funcionario funcionario) {
-        this.funcionario = funcionario;
-    }
 
-    public double getHoraNormal() {
-        return HoraNormal;
-    }
-
-    public void setHoraNormal(double horaNormal) {
-        HoraNormal = horaNormal;
-    }
-
-    public double getHorasExtra() {
-        return HorasExtra;
-    }
-
-    public void setHorasExtra(double horasExtra) {
-        HorasExtra = horasExtra;
-    }
-    public boolean temAdicionalFilhos(){
-        return funcionario.temDireitoAdicionalFilhos();
-    }
 }

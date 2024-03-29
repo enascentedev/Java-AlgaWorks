@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="exercicios de POO">
+      <change afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/ContratoTrabalho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/ContratoTrabalho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/FolhaPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/FolhaPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Holerite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Holerite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,7 @@
       <recent name="modulo_05.exercicio_OO.exercicio_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.modulo_05.exercicio_OO.exercicio_3.Principal">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Controle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_5.Controle" />
       <module name="desafio-java" />
@@ -81,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modulo_05.exercicio_OO.exercicio_1_calculoIdade.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_1_calculoIdade.Principal" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio5_25.Principal" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.exercicio_OO.exercicio_1_calculoIdade.*" />
+          <option name="PATTERN" value="modulo_05.exercicio5_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_3.Principal" />
         <item itemvalue="Application.Controle" />
         <item itemvalue="Application.modulo_05.exercicios_fixacao.exercicio2.Principal" />
         <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_2.Principal" />
-        <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_1_calculoIdade.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -309,11 +315,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/modulo_05/exercicio5_25/Main.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/modulo_05/exercicio5_07/Principal.java</url>
           <line>4</line>
