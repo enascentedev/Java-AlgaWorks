@@ -10,6 +10,7 @@ public class FolhaPagamento {
         double valorReceber;
 
         valorReceber= (valorHoraNomral*quantidadeHoraNormal)+ (valorHoraNomral*quantidadeHoraNormal);
+
         return valorReceber;
     }
 }

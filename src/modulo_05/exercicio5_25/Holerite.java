@@ -1,6 +1,9 @@
 package modulo_05.exercicio5_25;
 
 public class Holerite {
+    Funcionario funcionario;
+    int quantidadeHoraNormal;
+    int quantidadeHoraExtra;
 
 
 
