@@ -5,8 +5,8 @@ Author: Emanuel
 Módulo 08 - Trabalhando com arrays
 
 -- ----- ----- -----
-algoworks
 08.01. Declarando e inicializando arrays
+
 tipos primitivos não recebem null e os wrappers resolvem isso
 Em Java, tipos primitivos como int, double, char, etc., não podem receber valores null porque são tipos de dados básicos que armazenam valores diretos. Por outro lado, as classes wrapper em Java são classes que encapsulam um tipo primitivo dentro de um objeto, permitindo que esses tipos possam ser tratados como objetos. Uma vantagem disso é que objetos podem receber null, o que significa que as classes wrapper podem ser usadas para representar um tipo primitivo que pode ser null.
 byte → Byte
@@ -19,27 +19,26 @@ char → Character
 boolean → Boolean
 
 -- ----- ----- -----
-algoworks
+08.02. Acessando e atribuindo elementos de arrays
 
-07.02. Métodos de conversão.
-valueOf(): Converte um valor primitivo ou uma string para o respectivo tipo de objeto wrapper. Por exemplo, Integer.valueOf(5) retorna um objeto Integer representando o valor 5.
-parseXXX(): Converte uma string para o respectivo tipo primitivo. Por exemplo, Integer.parseInt("123") retorna o valor primitivo int 123. Cada classe wrapper (exceto Character) possui um método parseXXX correspondente.
-toString(): Converte o valor do objeto wrapper para uma string. Por exemplo, Integer.toString(10) retorna a string "10".
-xxxValue(): Converte o valor do objeto wrapper para um tipo primitivo específico. Por exemplo, new Integer(5).intValue() retorna o valor primitivo int 5. Cada classe wrapper tem métodos como intValue(), doubleValue(), etc., para converter para o tipo primitivo correspondente.
-
--- ----- ----- -----
-07.03. Autoboxing e unboxing
-
-Autoboxing é a conversão automática que o Java faz de tipos primitivos para seus respectivos objetos wrapper. Unboxing é o processo inverso, convertendo objetos wrapper para tipos primitivos. Esses mecanismos facilitam a integração entre operações com tipos primitivos e a manipulação de objetos, tornando o código mais limpo e menos propenso a erros.
-Unboxing é a conversão automática de um objeto wrapper para seu correspondente tipo primitivo em Java, facilitando operações que requerem valores primitivos a partir de objetos.
-
+Nesta aula de Java sobre acesso e atribuição de elementos de arrays, aprendemos que arrays são estruturas de dados que armazenam uma
+coleção de elementos do mesmo tipo. Usando índices, que começam do zero, podemos acessar e modificar os elementos do array. No exemplo,
+alteramos os valores dos elementos nas posições 0 e 1 e calculamos a soma total dos elementos. Também acessamos um elemento do array
+usando uma variável para determinar a posição.
 
 -- ----- ----- -----
-07.04. Comparando wrappers
+08.03. Iterando em arrays
 
-Em Java, a classe Integer armazena internamente valores de -128 a 127 para otimização de memória. Para valores fora deste intervalo, como 128, novos objetos são criados. Comparar Integer com == checa referências, podendo falhar fora do intervalo cacheado, enquanto .equals() compara valores, sendo o método correto para igualdade de números.
+Na aula sobre iteração em arrays em Java, vimos como percorrer arrays utilizando loops. Há diferentes maneiras de iterar sobre
+um array: o loop for tradicional, utilizando um contador e o índice do array, e o loop for-each, que simplifica a iteração sem o uso
+de índices. O cálculo de uma média a partir dos elementos de um array foi demonstrado como um caso de uso prático, onde a soma
+dos elementos é dividida pelo número total de elementos.
 
 -- ----- ----- -----
-07.06. Boas práticas - prefira tipos primitivos a wrappers
-Utilizar tipos primitivos em Java é preferível a usar wrappers devido ao menor uso de memória, maior velocidade de execução e ausência de risco de NullPointerException. Os primitivos são mais simples de gerenciar, pois não têm a sobrecarga associada aos objetos. Wrappers são úteis em coleções genéricas ou quando precisamos de um valor null para representar a ausência de um valor.
+08.04. Transformando arrays em representações em string
+
+Nesta aula de Java, vimos como converter arrays para sua representação em String usando a classe Arrays do pacote java.util.
+O método Arrays.toString() é utilizado para obter uma representação textual de um array, facilitando a visualização dos seus elementos.
+Isso é especialmente útil para imprimir ou registrar em log o conteúdo completo de um array de uma maneira legível.
+
 
