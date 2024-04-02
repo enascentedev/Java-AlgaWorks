@@ -41,4 +41,21 @@ Nesta aula de Java, vimos como converter arrays para sua representação em Stri
 O método Arrays.toString() é utilizado para obter uma representação textual de um array, facilitando a visualização dos seus elementos.
 Isso é especialmente útil para imprimir ou registrar em log o conteúdo completo de um array de uma maneira legível.
 
+-- ----- ----- -----
+08.05. Ordenando arrays em ordem natural e reversa
+
+No primeiro exemplo, a array notas é ordenada em ordem natural usando Arrays.sort(notas). No segundo exemplo, a array notas é
+ordenada em ordem reversa usando Arrays.sort(notas, Comparator.reverseOrder()).
+A diferença entre os códigos é que o segundo usa Integer em vez de int para permitir a ordenação reversa através de um Comparator.
+
+-- ----- ----- -----
+08.06. Criando arrays de objetos
+
+
+
+
+
+
+
+
 
