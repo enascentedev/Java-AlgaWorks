@@ -2,23 +2,26 @@ package modulo_05.exercicio5_25;
 
 public class ContratoTrabalho {
 
-
     Funcionario funcionario;
-    int horaNormal;
-    int horaextra;
+    double horaNormal; // Alterado para double
+    double horaExtra; // Alterado para double
     int quantidadeHoraNormal;
     int quantidadeHoraExtra;
 
-    boolean possuiAdicionalFilhos() {
-        return funcionario.quantidadeFilhos > 0;
-    }
-
-    public ContratoTrabalho(int quantidadeHoraNormal, int quantidadeHoraExtra) {
+    public ContratoTrabalho(int quantidadeHoraNormal, int quantidadeHoraExtra, double horaNormal, double horaExtra) {
         this.quantidadeHoraNormal = quantidadeHoraNormal;
         this.quantidadeHoraExtra = quantidadeHoraExtra;
+        this.horaNormal = horaNormal; // Correção
+        this.horaExtra = horaExtra; // Correção
     }
 
+    public boolean possuiAdicionalFilhos() {
+        return funcionario != null && funcionario.quantidadeFilhos > 0;
+    }
 
+    public void setFuncionario(Funcionario funcionario) {
+        this.funcionario = funcionario;
+    }
 
     public int getQuantidadeHoraNormal() {
         return quantidadeHoraNormal;
@@ -28,23 +31,16 @@ public class ContratoTrabalho {
         return quantidadeHoraExtra;
     }
 
-    public ContratoTrabalho(int horaNormal, int horaextra, int quantidadeHoraNormal, int quantidadeHoraExtra) {
-        this.horaNormal = horaNormal;
-        this.horaextra = horaextra;
-
-    }
-
-    public int getHoraNormal() {
+    public double getHoraNormal() {
         return horaNormal;
     }
 
-    public int getHoraextra() {
-        return horaextra;
+    public double getHoraExtra() {
+        return horaExtra;
     }
 
     public Funcionario getFuncionario() {
         return funcionario;
     }
-
 
 }

@@ -50,7 +50,13 @@ A diferença entre os códigos é que o segundo usa Integer em vez de int para p
 
 -- ----- ----- -----
 08.06. Criando arrays de objetos
+A aula demonstra a criação de arrays de objetos em Java, usando classes Turma e Aluno. A Turma contém um array de Aluno, e no método main,
+um objeto Turma é instanciado, com alunos sendo criados e atribuídos ao array. Isso exemplifica a manipulação de arrays de objetos,
+incluindo a inicialização e a atribuição de valores.
 
+-- ----- ----- -----
+08.07. Iterando em arrays de objetos
+nessa aula criei um arquivo chamado escola aonde fiz dois tipos de for no array de alunos
 
 
 
