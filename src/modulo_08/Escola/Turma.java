@@ -1,9 +1,19 @@
 package modulo_08.Escola;
 
+import java.util.ArrayList;
+
 public class Turma {
     String identificacao;
     String nomeProfessora;
-    Aluno[] alunos= new Aluno[3];
+    ArrayList<Aluno> alunos= new ArrayList<>();
+
+    void adicionarAluno (Aluno aluno){
+        alunos.add(aluno);
+    }
+
+    void removerAluno(int indice){
+        alunos.remove(indice);
+    }
 
     void imprimirListaDeAlunos(){
         for (Aluno aluno:alunos){

@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="exercicios de POO">
-      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_1/Calendario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Cardapio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_2/ItemCardapio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_08/Simulator/Exercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_08/Simulator/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Cardapio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Desafio_2/ItemCardapio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Escola/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_08/Escola/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Escola/Turma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_08/Escola/Turma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modulo_08/modulo_08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_08/modulo_08.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -40,6 +46,7 @@
   "keyToString": {
     "Application.Calendario.executor": "Run",
     "Application.Controle.executor": "Run",
+    "Application.Exercicio.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.Principal_2.executor": "Run",
@@ -79,7 +86,7 @@
       <recent name="modulo_05.exercicio_OO.exercicio_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.modulo_08.Desafio_2.Principal">
+  <component name="RunManager" selected="Application.modulo_08.Escola.Principal">
     <configuration name="Calendario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo_08.Desafio_1.Calendario" />
       <module name="desafio-java" />
@@ -93,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio5_25.Principal" />
+    <configuration name="Exercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_08.Simulator.Exercicio" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.exercicio5_25.*" />
+          <option name="PATTERN" value="modulo_08.Simulator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modulo_08.Escola.Principal" />
+        <item itemvalue="Application.Exercicio" />
         <item itemvalue="Application.modulo_08.Desafio_2.Principal" />
         <item itemvalue="Application.modulo_08.desafio_2.Principal" />
         <item itemvalue="Application.Calendario" />
-        <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.modulo_08.Escola.Principal" />
       </list>
     </recent_temporary>
   </component>

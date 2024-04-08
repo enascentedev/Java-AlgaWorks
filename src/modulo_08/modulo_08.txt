@@ -71,6 +71,39 @@ int length), onde src é o array de origem, srcPos a posição inicial nele, des
 , e length o número de elementos a serem copiados. É eficiente para manipulação de arrays, exigindo cuidado com os índices para evitar
 exceções.
 
+08.10. Desafio - arrays
+
+08.11. Um pouco da ArrayList da Collections API
+O ArrayList é uma classe da API Collections em Java que implementa uma lista redimensionável de objetos. Ao contrário dos arrays normais,
+ArrayLists podem mudar de tamanho dinamicamente, facilitando a adição e remoção de elementos. Eles permitem armazenar elementos
+duplicados e mantêm a ordem de inserção dos elementos. O acesso aos elementos é feito por índice, semelhante a arrays, oferecendo
+operações de busca e atualização rápidas. Além disso, a classe ArrayList fornece métodos para operações como iteração, ordenação e
+modificação em massa.
+
+08.12. Desafio - ArrayList
+
+08.13. Diagrama de classes - multiplicidade para arrays
+mostrou como declarar arrays no diagrama UML
+
+08.14. Boas práticas - retorne arrays ou coleções vazias no lugar de null
+deu um exemplo modificado do desafio de cardapio,criou um métodod de consultar itens por preço que recebe dois parametros
+prço minimo e preço máximo , jogou valores diferentes lá e mostrou algum valores quando retornam null(preço não encontrado nos paramteros)
+a boa prática é se temos um método que retorna uma coleção sempre retorne uma instancia da coleção se não tiver nada pra retornar não vai retorna null e
+sim vazio
+
+08.15. Criando arrays multidimensionais
+Em Java, arrays multidimensionais são essencialmente arrays de arrays, com cada dimensão adicionada representando um novo nível de array
+dentro do anterior. Comumente usados para representar matrizes ou tabelas de dados, eles são declarados com múltiplos pares de colchetes,
+como int[][] para um array bidimensional. A inicialização pode ser feita de forma estática com valores pré-definidos ou dinamicamente,
+criando cada sub-array individualmente. Arrays multidimensionais são úteis para organizar dados complexos, mas cada sub-array pode ter
+um tamanho diferente, permitindo estruturas flexíveis como arrays dentados.
+
+
+
+
+
+
+
 
 
 
