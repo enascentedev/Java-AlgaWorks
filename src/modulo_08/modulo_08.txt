@@ -56,7 +56,20 @@ incluindo a inicialização e a atribuição de valores.
 
 -- ----- ----- -----
 08.07. Iterando em arrays de objetos
-nessa aula criei um arquivo chamado escola aonde fiz dois tipos de for no array de alunos
+nessa aula criei um arquivo chamado escola aonde fiz dois tipos de for no array de alunos o primiro tipo é o for completo e tradicional
+o outro parecido com um forEach
+
+08.08. Copiando e expandindo arrays
+A aula aborda como essas operações são essenciais para manter a integridade dos dados e para adicionar elementos a arrays de forma segura.
+Ao copiar, métodos como Arrays.copyOf() e o loop manual são usados para evitar alterações no array original. Para expandir, visto que
+arrays em Java têm tamanho fixo, são utilizadas estruturas como ArrayList ou a criação de um novo array maior para acomodar mais
+elementos. Um exemplo seria o uso de Arrays.copyOf(arrayOriginal, novoTamanho) para criar uma cópia expandida.
+
+08.09. Removendo elementos de arrays
+ele usou o método do java chamado arraycopy para copiar um novo array. System.arraycopy(Object src, int srcPos, Object dest, int destPos,
+int length), onde src é o array de origem, srcPos a posição inicial nele, dest o array de destino, destPos a posição inicial no destino
+, e length o número de elementos a serem copiados. É eficiente para manipulação de arrays, exigindo cuidado com os índices para evitar
+exceções.
 
 
 

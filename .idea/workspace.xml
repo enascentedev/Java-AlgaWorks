@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="exercicios de POO">
+      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_1/Calendario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Cardapio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_2/ItemCardapio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/ContratoTrabalho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/ContratoTrabalho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/FolhaPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/FolhaPagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Holerite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Holerite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_05/exercicio5_25/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_08/Escola/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_08/Escola/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_08/Escola/Turma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_08/Escola/Turma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modulo_08/modulo_08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_08/modulo_08.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calendario.executor": "Run",
     "Application.Controle.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Principal.executor": "Run",
@@ -54,13 +52,15 @@
     "Application.modulo_05.exercicios_fixacao.exercicio2.Principal.executor": "Run",
     "Application.modulo_05.modulo_05.Principal.executor": "Run",
     "Application.modulo_05.modulo_05_02.Principal.executor": "Run",
+    "Application.modulo_08.Desafio_2.Principal.executor": "Run",
     "Application.modulo_08.Escola.Principal.executor": "Run",
+    "Application.modulo_08.desafio_2.Principal.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/Java-AlgaWorks",
+    "last_opened_file_path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/Java-AlgaWorks/src/modulo_08/Desafio_3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,17 +72,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WebGlobal113\Documents\Estudos\Projetos em andamento\Java-AlgaWorks\src\modulo_08\Desafio_3" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="modulo_05.exercicio_OO.exercicio_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
-    <configuration name="Controle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_5.Controle" />
+  <component name="RunManager" selected="Application.modulo_08.Desafio_2.Principal">
+    <configuration name="Calendario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_08.Desafio_1.Calendario" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.exercicio_OO.exercicio_5.*" />
+          <option name="PATTERN" value="modulo_08.Desafio_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modulo_05.exercicio_OO.exercicio_3.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicio_OO.exercicio_3.Principal" />
+    <configuration name="modulo_08.Desafio_2.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_08.Desafio_2.Principal" />
       <module name="desafio-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modulo_05.exercicio_OO.exercicio_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="modulo_05.exercicios_fixacao.exercicio2.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_05.exercicios_fixacao.exercicio2.Principal" />
-      <module name="desafio-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modulo_05.exercicios_fixacao.exercicio2.*" />
+          <option name="PATTERN" value="modulo_08.Desafio_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="modulo_08.desafio_2.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_08.desafio_2.Principal" />
+      <module name="desafio-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo_08.desafio_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modulo_08.Desafio_2.Principal" />
+        <item itemvalue="Application.modulo_08.desafio_2.Principal" />
+        <item itemvalue="Application.Calendario" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.modulo_08.Escola.Principal" />
-        <item itemvalue="Application.modulo_05.exercicio_OO.exercicio_3.Principal" />
-        <item itemvalue="Application.Controle" />
-        <item itemvalue="Application.modulo_05.exercicios_fixacao.exercicio2.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -327,6 +330,11 @@
           <url>file://$PROJECT_DIR$/src/modulo_05/exercicio5_07/Principal.java</url>
           <line>5</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/modulo_08/desafio_2/ItemCardapio.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/modulo_05/exercicio5_07/Cachorro.java</url>
