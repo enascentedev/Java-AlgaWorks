@@ -98,7 +98,21 @@ como int[][] para um array bidimensional. A inicialização pode ser feita de fo
 criando cada sub-array individualmente. Arrays multidimensionais são úteis para organizar dados complexos, mas cada sub-array pode ter
 um tamanho diferente, permitindo estruturas flexíveis como arrays dentados.
 
+08.16. Iterando em arrays multidimensionais
+fez dois tipos de for em um arquivo que está na pasta como array_multimensional
 
+08.17. Lendo os parâmetros da linha de comando
+mostrou como executar programa pela linha de comando e usar alguns argumentos para imprimir nomes da classe no terminal.
+
+08.18. Criando métodos com argumentos variáveis com Varargs
+Em Java, Varargs permitem a criação de métodos que aceitam um número variável de argumentos do mesmo tipo, utilizando a
+sintaxe tipo... nome. Internamente, Varargs são tratados como arrays do tipo especificado, permitindo ao método processar os argumentos
+com a facilidade de um array. Para utilizar Varargs, você os declara no último parâmetro do método. Durante a chamada do método,
+você pode passar quantos argumentos do tipo declarado desejar, e eles serão acessíveis como um array dentro do método.
+Isso simplifica a passagem de uma quantidade variável de argumentos para um método.
+
+08.19. Boas práticas - use varargs com cuidado
+Mostrou boas práticas do uso de varargs.
 
 
 
