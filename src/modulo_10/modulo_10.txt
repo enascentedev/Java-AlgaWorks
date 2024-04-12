@@ -2,37 +2,34 @@
 
 Estudos: Java
 Author: Emanuel
-Módulo 09 - Gerenciamento de memória do Java
+Módulo 10 - Construtores, pacotes e visibilidade
 
 -- ----- ----- -----
-09.01. Estrutura da memória da JVM
+10.01. Criando e chamando construtores
 
-Na JVM, a memória Heap armazena objetos dinâmicos e é sujeita à Garbage Collection, liberando espaço de objetos não mais em uso.
-A memória Não Heap, composta pelo Metaspace e pelo Code Cache, guarda definições de classes e código compilado, respectivamente.
-Enquanto o Heap é focado na alocação de objetos, a memória Não Heap é crucial para o armazenamento de estruturas de metadados e a execução de
-código nativo. Ambas são essenciais para a performance e gerenciamento de recursos em aplicações Java.
-
--- ----- ----- -----
-09.02. Call Stack, Stack Memory e Heap Memory
-
-Em Java, a Call Stack, ou pilha de chamadas, mantém registro das chamadas de métodos à medida que são executadas, armazenando o estado e as
-variáveis locais de cada método. Stack Memory é a área onde a Call Stack opera, organizando os dados de forma LIFO (Last-In, First-Out),
-gerenciando a execução de threads e métodos. Heap Memory, em contraste, é uma área de memória mais ampla usada para alocação dinâmica de objetos
-e instâncias de classe, gerenciada pelo Garbage Collector que automaticamente libera objetos que não são mais referenciados. Enquanto a Stack
-Memory é exclusiva para cada thread, a Heap Memory é compartilhada entre todos eles. professor fez uma simulação com um processo e dois métodos
-e mostrou na prática como se comporta a memória.
+Em Java, os construtores são métodos especiais usados para inicializar objetos. Eles têm o mesmo nome da classe e não possuem tipo de retorno.
+Para chamar um construtor, use a palavra-chave new seguida do nome da classe e dos argumentos, se houverem. Construtores podem ser
+sobrecarregados, permitindo diferentes formas de inicialização para objetos da mesma classe.
+Chamar um construtor em Java significa instanciar um objeto dessa classe, ou seja, criar uma nova instância da classe usando o construtor
+correspondente
 
 -- ----- ----- -----
-09.03. Informações da Memória Heap com a Runtime API
+10.02. Construtores com parâmetros
 
-A Runtime API do Java permite monitorar e gerenciar a memória Heap da JVM. Utilizando métodos como totalMemory(), freeMemory(), e maxMemory(),
-desenvolvedores podem determinar a memória total disponível, a memória atualmente livre e o limite máximo que a Heap pode alcançar.
-Calculando a diferença entre a memória total e a memória livre, obtém-se a memória em uso. Essas métricas são úteis para otimização do desempenho
-da aplicação e para o diagnóstico de problemas relacionados à memória.
-Criei um arquivo de teste Jvm para fazer os testes
+Construtores com parâmetros em Java são usados para inicializar objetos com valores específicos passados como argumentos durante a instanciação.
+Eles permitem que você defina o estado inicial do objeto com base nos valores fornecidos, facilitando a personalização e reutilização do código.
+Ao criar um construtor com parâmetros, você pode definir diferentes formas de inicialização para objetos da mesma classe, oferecendo
+flexibilidade no uso da classe em diferentes contextos.
 
 -- ----- ----- -----
-09.04. Configurando a Memória Heap da JVM
+10.03. Sobrecarga de construtores
+
+A sobrecarga de construtores em Java permite ter múltiplos construtores com o mesmo nome, mas com diferentes listas de parâmetros. Isso facilita
+oferecer diversas formas de inicialização para objetos da mesma classe, adaptando-se às necessidades específicas dos usuários. É útil para
+personalizar a criação de objetos com diferentes conjuntos de valores.
+
+-- ----- ----- -----
+10.04. Boas práticas - valide os argumentos de construtores
 
 Para configurar a memória Heap da JVM em Java, utilizam-se argumentos de linha de comando: -Xms para o tamanho inicial da Heap, -Xmx para
 o tamanho máximo, e -XX:MinHeapFreeRatio e -XX:MaxHeapFreeRatio para gerenciar a proporção de Heap livre após a coleta de lixo. O tamanho

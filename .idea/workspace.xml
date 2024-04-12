@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="aulas modulo 8">
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_Memoria/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_09/Teste_Memoria/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_10/Teste/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_10/Teste/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modulo_10/modulo_10.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_09/modulo_09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_09/modulo_09.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +60,13 @@
     "Application.modulo_08.desafio_2.Principal.executor": "Run",
     "Application.modulo_08.exercicio_1.Principal.executor": "Run",
     "Application.modulo_09.Teste_Memoria.Teste.executor": "Run",
+    "Application.modulo_10.Teste.Principal.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/Java-imageLite/imagemliteapi",
+    "last_opened_file_path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,13 +79,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WebGlobal113\Documents\Estudos\Projetos em andamento\Java-AlgaWorks\src\modulo_10\Projeto" />
       <recent name="C:\Users\WebGlobal113\Documents\Estudos\Projetos em andamento\Java-AlgaWorks\src\modulo_08\Desafio_3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="modulo_05.exercicio_OO.exercicio_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.modulo_09.Teste_Memoria.Teste">
+  <component name="RunManager" selected="Application.modulo_10.Teste.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modulo_08.Array_Multidimensional.Principal" />
       <module name="desafio-java" />
@@ -111,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="modulo_09.Teste_JVM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="modulo_08.Escola.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modulo_08.Escola.Principal" />
-      <module name="desafio-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modulo_08.Escola.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="modulo_10.Teste.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo_10.Teste.Principal" />
+      <module name="desafio-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo_10.Teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modulo_10.Teste.Principal" />
         <item itemvalue="Application.modulo_09.Teste_Memoria.Teste" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.modulo_08.exercicio_1.Principal" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.modulo_08.Escola.Principal" />
       </list>
     </recent_temporary>
   </component>
