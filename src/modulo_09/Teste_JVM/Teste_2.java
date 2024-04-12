@@ -1,12 +1,19 @@
 package modulo_09.Teste_JVM;
 
-public class Teste {
+public class Teste_2 {
 
     public static void main(String[] args) {
         imprimirUsoMemoria();
 
         byte[] x = new byte[500* 1024* 1024];
-        
+
+        byte[] y = new byte[500* 1024* 1024];
+
+        imprimirUsoMemoria();
+
+        x=y;
+
+        System.gc();
 
         imprimirUsoMemoria();
     }

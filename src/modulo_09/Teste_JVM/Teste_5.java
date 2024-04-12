@@ -1,11 +1,18 @@
 package modulo_09.Teste_JVM;
 
-public class Teste_4 {
+public class Teste_5 {
 
     public static void main(String[] args) {
         imprimirUsoMemoria();
 
-        new Cliente();
+        Cliente cliente =new Cliente();
+        Endereco endereco =new Endereco();
+
+        cliente.endereco=endereco;
+        endereco.cliente=cliente;
+
+        cliente = null;
+        endereco= null;
 
         imprimirUsoMemoria();
 

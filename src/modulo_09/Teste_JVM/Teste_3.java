@@ -1,23 +1,24 @@
 package modulo_09.Teste_JVM;
 
-public class Teste_2 {
+public class Teste_3 {
 
     public static void main(String[] args) {
         imprimirUsoMemoria();
 
-        byte[] x = new byte[500* 1024* 1024];
-
-        byte[] y = new byte[500* 1024* 1024];
+        criarObjeto();
 
         imprimirUsoMemoria();
 
-        x=y;
-
         System.gc();
-        Teste_2
+
         imprimirUsoMemoria();
     }
 
+    static void criarObjeto(){
+
+        byte[] x = new byte[500* 1024* 1024];
+
+    }
     static void imprimirUsoMemoria(){
         System.out.printf("Máxima: %s%n", emMegabytes(Runtime.getRuntime().maxMemory()));
 

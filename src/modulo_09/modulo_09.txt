@@ -24,92 +24,48 @@ e mostrou na prática como se comporta a memória.
 
 -- ----- ----- -----
 09.03. Informações da Memória Heap com a Runtime API
+
 A Runtime API do Java permite monitorar e gerenciar a memória Heap da JVM. Utilizando métodos como totalMemory(), freeMemory(), e maxMemory(),
 desenvolvedores podem determinar a memória total disponível, a memória atualmente livre e o limite máximo que a Heap pode alcançar.
 Calculando a diferença entre a memória total e a memória livre, obtém-se a memória em uso. Essas métricas são úteis para otimização do desempenho
 da aplicação e para o diagnóstico de problemas relacionados à memória.
 Criei um arquivo de teste Jvm para fazer os testes
 
+-- ----- ----- -----
+09.04. Configurando a Memória Heap da JVM
+
+Para configurar a memória Heap da JVM em Java, utilizam-se argumentos de linha de comando: -Xms para o tamanho inicial da Heap, -Xmx para
+o tamanho máximo, e -XX:MinHeapFreeRatio e -XX:MaxHeapFreeRatio para gerenciar a proporção de Heap livre após a coleta de lixo. O tamanho
+inicial e máximo da nova geração podem ser definidos com -XX:NewSize e -XX:MaxNewSize, respectivamente. A partir do Java 8, o PermGen foi
+substituído por Metaspace, ajustável com -XX:MetaSpaceSize e -XX:MaxMetaSpaceSize. Estes ajustes são essenciais para otimizar o desempenho
+da aplicação e evitar a exaustão da memória.
 
 -- ----- ----- -----
-08.04. Transformando arrays em representações em string
+09.05. Garbage Collector
 
-Nesta aula de Java, vimos como converter arrays para sua representação em String usando a classe Arrays do pacote java.util.
-O método Arrays.toString() é utilizado para obter uma representação textual de um array, facilitando a visualização dos seus elementos.
-Isso é especialmente útil para imprimir ou registrar em log o conteúdo completo de um array de uma maneira legível.
-
--- ----- ----- -----
-08.05. Ordenando arrays em ordem natural e reversa
-
-No primeiro exemplo, a array notas é ordenada em ordem natural usando Arrays.sort(notas). No segundo exemplo, a array notas é
-ordenada em ordem reversa usando Arrays.sort(notas, Comparator.reverseOrder()).
-A diferença entre os códigos é que o segundo usa Integer em vez de int para permitir a ordenação reversa através de um Comparator.
+O Garbage Collector (GC) do Java automatiza a gestão da memória ao identificar e eliminar objetos que não são mais usados, liberando sua
+memória para reutilização. Existem vários tipos de GC, incluindo Serial, Parallel, CMS, G1, ZGC e Shenandoah, cada um com características
+distintas adequadas a diferentes tipos de aplicações e requisitos de performance. O GC trabalha em fases de marcação, limpeza e, em alguns
+casos, compactação para reduzir a fragmentação da memória. Embora os desenvolvedores possam solicitar a execução do GC, a JVM tem a palavra
+final sobre quando e como ele será executado. Compreender o funcionamento do GC é vital para otimizar aplicações e evitar problemas de
+desempenho relacionados à memória.
 
 -- ----- ----- -----
-08.06. Criando arrays de objetos
-A aula demonstra a criação de arrays de objetos em Java, usando classes Turma e Aluno. A Turma contém um array de Aluno, e no método main,
-um objeto Turma é instanciado, com alunos sendo criados e atribuídos ao array. Isso exemplifica a manipulação de arrays de objetos,
-incluindo a inicialização e a atribuição de valores.
+09.06. Inalcançabilidade de objetos
+
+A inalcançabilidade de objetos em Java ocorre quando eles não possuem mais referências ativas no código, tornando-se candidatos para coleta
+pelo Garbage Collector. Isso pode acontecer quando as referências são setadas para nulo, saem de escopo, são reatribuídas ou quando objetos
+interconectados perdem referência com o resto da aplicação. A inalcançabilidade é crucial para o gerenciamento automático de memória da JVM,
+permitindo que ela recupere a memória dos objetos que não são mais necessários, sem intervenção manual do programador.
+fez alguns arquivos para teste de coleta de lixo de memória que estão nos arquivos.
 
 -- ----- ----- -----
-08.07. Iterando em arrays de objetos
-nessa aula criei um arquivo chamado escola aonde fiz dois tipos de for no array de alunos o primiro tipo é o for completo e tradicional
-o outro parecido com um forEach
+09.07. Quando esgota a Memória Heap - OutOfMemoryError
+criou outro projeto chamado Teste_Memoria e nele criou um loop infinito pra estressar a memoria e depois analisamos a resposta.
 
-08.08. Copiando e expandindo arrays
-A aula aborda como essas operações são essenciais para manter a integridade dos dados e para adicionar elementos a arrays de forma segura.
-Ao copiar, métodos como Arrays.copyOf() e o loop manual são usados para evitar alterações no array original. Para expandir, visto que
-arrays em Java têm tamanho fixo, são utilizadas estruturas como ArrayList ou a criação de um novo array maior para acomodar mais
-elementos. Um exemplo seria o uso de Arrays.copyOf(arrayOriginal, novoTamanho) para criar uma cópia expandida.
 
-08.09. Removendo elementos de arrays
-ele usou o método do java chamado arraycopy para copiar um novo array. System.arraycopy(Object src, int srcPos, Object dest, int destPos,
-int length), onde src é o array de origem, srcPos a posição inicial nele, dest o array de destino, destPos a posição inicial no destino
-, e length o número de elementos a serem copiados. É eficiente para manipulação de arrays, exigindo cuidado com os índices para evitar
-exceções.
+09.08. Boas práticas - remova referências de objetos não usados
 
-08.10. Desafio - arrays
-
-08.11. Um pouco da ArrayList da Collections API
-O ArrayList é uma classe da API Collections em Java que implementa uma lista redimensionável de objetos. Ao contrário dos arrays normais,
-ArrayLists podem mudar de tamanho dinamicamente, facilitando a adição e remoção de elementos. Eles permitem armazenar elementos
-duplicados e mantêm a ordem de inserção dos elementos. O acesso aos elementos é feito por índice, semelhante a arrays, oferecendo
-operações de busca e atualização rápidas. Além disso, a classe ArrayList fornece métodos para operações como iteração, ordenação e
-modificação em massa.
-
-08.12. Desafio - ArrayList
-
-08.13. Diagrama de classes - multiplicidade para arrays
-mostrou como declarar arrays no diagrama UML
-
-08.14. Boas práticas - retorne arrays ou coleções vazias no lugar de null
-deu um exemplo modificado do desafio de cardapio,criou um métodod de consultar itens por preço que recebe dois parametros
-prço minimo e preço máximo , jogou valores diferentes lá e mostrou algum valores quando retornam null(preço não encontrado nos paramteros)
-a boa prática é se temos um método que retorna uma coleção sempre retorne uma instancia da coleção se não tiver nada pra retornar não vai retorna null e
-sim vazio
-
-08.15. Criando arrays multidimensionais
-Em Java, arrays multidimensionais são essencialmente arrays de arrays, com cada dimensão adicionada representando um novo nível de array
-dentro do anterior. Comumente usados para representar matrizes ou tabelas de dados, eles são declarados com múltiplos pares de colchetes,
-como int[][] para um array bidimensional. A inicialização pode ser feita de forma estática com valores pré-definidos ou dinamicamente,
-criando cada sub-array individualmente. Arrays multidimensionais são úteis para organizar dados complexos, mas cada sub-array pode ter
-um tamanho diferente, permitindo estruturas flexíveis como arrays dentados.
-
-08.16. Iterando em arrays multidimensionais
-fez dois tipos de for em um arquivo que está na pasta como array_multimensional
-
-08.17. Lendo os parâmetros da linha de comando
-mostrou como executar programa pela linha de comando e usar alguns argumentos para imprimir nomes da classe no terminal.
-
-08.18. Criando métodos com argumentos variáveis com Varargs
-Em Java, Varargs permitem a criação de métodos que aceitam um número variável de argumentos do mesmo tipo, utilizando a
-sintaxe tipo... nome. Internamente, Varargs são tratados como arrays do tipo especificado, permitindo ao método processar os argumentos
-com a facilidade de um array. Para utilizar Varargs, você os declara no último parâmetro do método. Durante a chamada do método,
-você pode passar quantos argumentos do tipo declarado desejar, e eles serão acessíveis como um array dentro do método.
-Isso simplifica a passagem de uma quantidade variável de argumentos para um método.
-
-08.19. Boas práticas - use varargs com cuidado
-Mostrou boas práticas do uso de varargs.
 
 
 

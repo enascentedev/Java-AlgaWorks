@@ -1,13 +1,16 @@
 package modulo_09.Teste_JVM;
 
 public class Teste {
+
     public static void main(String[] args) {
         imprimirUsoMemoria();
 
         byte[] x = new byte[500* 1024* 1024];
+        
 
         imprimirUsoMemoria();
     }
+
     static void imprimirUsoMemoria(){
         System.out.printf("Máxima: %s%n", emMegabytes(Runtime.getRuntime().maxMemory()));
 
@@ -26,4 +29,5 @@ public class Teste {
     static  String emMegabytes(long bytes){
         return String.format("%.2fMB",bytes /1024d /1024d);
     }
+
 }
