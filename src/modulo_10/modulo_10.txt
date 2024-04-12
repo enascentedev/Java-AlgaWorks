@@ -1,0 +1,80 @@
+## ----- ----- -----
+
+Estudos: Java
+Author: Emanuel
+Módulo 09 - Gerenciamento de memória do Java
+
+-- ----- ----- -----
+09.01. Estrutura da memória da JVM
+
+Na JVM, a memória Heap armazena objetos dinâmicos e é sujeita à Garbage Collection, liberando espaço de objetos não mais em uso.
+A memória Não Heap, composta pelo Metaspace e pelo Code Cache, guarda definições de classes e código compilado, respectivamente.
+Enquanto o Heap é focado na alocação de objetos, a memória Não Heap é crucial para o armazenamento de estruturas de metadados e a execução de
+código nativo. Ambas são essenciais para a performance e gerenciamento de recursos em aplicações Java.
+
+-- ----- ----- -----
+09.02. Call Stack, Stack Memory e Heap Memory
+
+Em Java, a Call Stack, ou pilha de chamadas, mantém registro das chamadas de métodos à medida que são executadas, armazenando o estado e as
+variáveis locais de cada método. Stack Memory é a área onde a Call Stack opera, organizando os dados de forma LIFO (Last-In, First-Out),
+gerenciando a execução de threads e métodos. Heap Memory, em contraste, é uma área de memória mais ampla usada para alocação dinâmica de objetos
+e instâncias de classe, gerenciada pelo Garbage Collector que automaticamente libera objetos que não são mais referenciados. Enquanto a Stack
+Memory é exclusiva para cada thread, a Heap Memory é compartilhada entre todos eles. professor fez uma simulação com um processo e dois métodos
+e mostrou na prática como se comporta a memória.
+
+-- ----- ----- -----
+09.03. Informações da Memória Heap com a Runtime API
+
+A Runtime API do Java permite monitorar e gerenciar a memória Heap da JVM. Utilizando métodos como totalMemory(), freeMemory(), e maxMemory(),
+desenvolvedores podem determinar a memória total disponível, a memória atualmente livre e o limite máximo que a Heap pode alcançar.
+Calculando a diferença entre a memória total e a memória livre, obtém-se a memória em uso. Essas métricas são úteis para otimização do desempenho
+da aplicação e para o diagnóstico de problemas relacionados à memória.
+Criei um arquivo de teste Jvm para fazer os testes
+
+-- ----- ----- -----
+09.04. Configurando a Memória Heap da JVM
+
+Para configurar a memória Heap da JVM em Java, utilizam-se argumentos de linha de comando: -Xms para o tamanho inicial da Heap, -Xmx para
+o tamanho máximo, e -XX:MinHeapFreeRatio e -XX:MaxHeapFreeRatio para gerenciar a proporção de Heap livre após a coleta de lixo. O tamanho
+inicial e máximo da nova geração podem ser definidos com -XX:NewSize e -XX:MaxNewSize, respectivamente. A partir do Java 8, o PermGen foi
+substituído por Metaspace, ajustável com -XX:MetaSpaceSize e -XX:MaxMetaSpaceSize. Estes ajustes são essenciais para otimizar o desempenho
+da aplicação e evitar a exaustão da memória.
+
+-- ----- ----- -----
+09.05. Garbage Collector
+
+O Garbage Collector (GC) do Java automatiza a gestão da memória ao identificar e eliminar objetos que não são mais usados, liberando sua
+memória para reutilização. Existem vários tipos de GC, incluindo Serial, Parallel, CMS, G1, ZGC e Shenandoah, cada um com características
+distintas adequadas a diferentes tipos de aplicações e requisitos de performance. O GC trabalha em fases de marcação, limpeza e, em alguns
+casos, compactação para reduzir a fragmentação da memória. Embora os desenvolvedores possam solicitar a execução do GC, a JVM tem a palavra
+final sobre quando e como ele será executado. Compreender o funcionamento do GC é vital para otimizar aplicações e evitar problemas de
+desempenho relacionados à memória.
+
+-- ----- ----- -----
+09.06. Inalcançabilidade de objetos
+
+A inalcançabilidade de objetos em Java ocorre quando eles não possuem mais referências ativas no código, tornando-se candidatos para coleta
+pelo Garbage Collector. Isso pode acontecer quando as referências são setadas para nulo, saem de escopo, são reatribuídas ou quando objetos
+interconectados perdem referência com o resto da aplicação. A inalcançabilidade é crucial para o gerenciamento automático de memória da JVM,
+permitindo que ela recupere a memória dos objetos que não são mais necessários, sem intervenção manual do programador.
+fez alguns arquivos para teste de coleta de lixo de memória que estão nos arquivos.
+
+-- ----- ----- -----
+09.07. Quando esgota a Memória Heap - OutOfMemoryError
+criou outro projeto chamado Teste_Memoria e nele criou um loop infinito pra estressar a memoria e depois analisamos a resposta.
+
+
+09.08. Boas práticas - remova referências de objetos não usados
+
+
+
+
+
+
+
+
+
+
+
+
+
