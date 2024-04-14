@@ -7,17 +7,21 @@ public class Produto {
     int quantidadeEstoque;
 
     Produto() {
-        this.nome = "Sem nome";
-        this.quantidadeEstoque = QUANTIDADE_ESTOQUE_INICIAL;
+        this( "Sem nome");
+
     }
 
     Produto(String nome) {
-        this.nome = nome;
-        this.quantidadeEstoque = QUANTIDADE_ESTOQUE_INICIAL;
+        this(nome,QUANTIDADE_ESTOQUE_INICIAL);
     }
 
 
     Produto(String nome, int estoqueInicial) {
+
+        if(estoqueInicial<0){
+            throw new IllegalArgumentException("estoque inicial não pode ser menor que zero");
+        }
+
         this.nome = nome;
         this.quantidadeEstoque = estoqueInicial;
     }

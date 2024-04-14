@@ -38,14 +38,11 @@ substituído por Metaspace, ajustável com -XX:MetaSpaceSize e -XX:MaxMetaSpaceS
 da aplicação e evitar a exaustão da memória.
 
 -- ----- ----- -----
-09.05. Garbage Collector
+10.05. Encadeamento de chamadas de construtores
 
-O Garbage Collector (GC) do Java automatiza a gestão da memória ao identificar e eliminar objetos que não são mais usados, liberando sua
-memória para reutilização. Existem vários tipos de GC, incluindo Serial, Parallel, CMS, G1, ZGC e Shenandoah, cada um com características
-distintas adequadas a diferentes tipos de aplicações e requisitos de performance. O GC trabalha em fases de marcação, limpeza e, em alguns
-casos, compactação para reduzir a fragmentação da memória. Embora os desenvolvedores possam solicitar a execução do GC, a JVM tem a palavra
-final sobre quando e como ele será executado. Compreender o funcionamento do GC é vital para otimizar aplicações e evitar problemas de
-desempenho relacionados à memória.
+Sem o encadeamento de construtores, cada construtor em Java deve implementar completamente a lógica de inicialização, levando a duplicação de
+código e dificultando a manutenção. O encadeamento de construtores centraliza a inicialização em um local, reduzindo a duplicação e facilitando
+alterações futuras, tornando o código mais limpo e fácil de gerenciar.
 
 -- ----- ----- -----
 09.06. Inalcançabilidade de objetos
@@ -62,6 +59,7 @@ criou outro projeto chamado Teste_Memoria e nele criou um loop infinito pra estr
 
 
 09.08. Boas práticas - remova referências de objetos não usados
+
 
 
 
