@@ -5,12 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823738b2-8967-4b0a-94a3-dff50243fe68" name="Changes" comment="aulas modulo 8">
-      <change afterPath="$PROJECT_DIR$/src/modulo_10/desafio_01/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_10/desafio_01/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_10/desafio_10_07/Participante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modulo_10/desafio_10_07/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo_10/modulo_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo_10/modulo_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_06/modulo_06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_07/modulo_07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Array_Multidimensional/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Calculadora_media/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Calculadora_media/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Desafio_1/Calendario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Cardapio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Desafio_2/ItemCardapio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Desafio_2/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Escola/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Escola/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Escola/Turma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Simulator/Exercicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/Simulator/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/exercicio_1/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_08/modulo_08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_JVM/Teste_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_Memoria/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/Teste_Memoria/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_09/modulo_09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_10/Teste/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_10/Teste/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_10/desafio_01/ContaBancaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_10/desafio_01/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_10/desafio_10_07/Participante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_10/desafio_10_07/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo_10/modulo_10.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +100,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/Java-AlgaWorks",
+    "last_opened_file_path": "C:/Users/WebGlobal113/Documents/Estudos/Projetos em andamento/Java-AlgaWorks/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +113,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WebGlobal113\Documents\Estudos\Projetos em andamento\Java-AlgaWorks\src" />
       <recent name="C:\Users\WebGlobal113\Documents\Estudos\Projetos em andamento\Java-AlgaWorks\src\modulo_10\Projeto" />
       <recent name="C:\Users\WebGlobal113\Documents\Estudos\Projetos em andamento\Java-AlgaWorks\src\modulo_08\Desafio_3" />
     </key>

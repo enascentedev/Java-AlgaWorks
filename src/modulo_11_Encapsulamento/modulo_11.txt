@@ -1,0 +1,119 @@
+## ----- ----- -----
+
+Estudos: Java
+Author: Emanuel
+Módulo 11 - Módulo 11 - Encapsulamento, javabeans e records
+
+-- ----- ----- -----
+11.1. O problema da falta de encapsulamento
+
+Mostrou na prática os problemas por falta de encapsulamento
+
+-- ----- ----- -----
+10.02. Construtores com parâmetros
+
+Construtores com parâmetros em Java são usados para inicializar objetos com valores específicos passados como argumentos durante a instanciação.
+Eles permitem que você defina o estado inicial do objeto com base nos valores fornecidos, facilitando a personalização e reutilização do código.
+Ao criar um construtor com parâmetros, você pode definir diferentes formas de inicialização para objetos da mesma classe, oferecendo
+flexibilidade no uso da classe em diferentes contextos.
+
+-- ----- ----- -----
+10.03. Sobrecarga de construtores
+
+A sobrecarga de construtores em Java permite ter múltiplos construtores com o mesmo nome, mas com diferentes listas de parâmetros. Isso facilita
+oferecer diversas formas de inicialização para objetos da mesma classe, adaptando-se às necessidades específicas dos usuários. É útil para
+personalizar a criação de objetos com diferentes conjuntos de valores.
+
+-- ----- ----- -----
+10.04. Boas práticas - valide os argumentos de construtores
+
+Para configurar a memória Heap da JVM em Java, utilizam-se argumentos de linha de comando: -Xms para o tamanho inicial da Heap, -Xmx para
+o tamanho máximo, e -XX:MinHeapFreeRatio e -XX:MaxHeapFreeRatio para gerenciar a proporção de Heap livre após a coleta de lixo. O tamanho
+inicial e máximo da nova geração podem ser definidos com -XX:NewSize e -XX:MaxNewSize, respectivamente. A partir do Java 8, o PermGen foi
+substituído por Metaspace, ajustável com -XX:MetaSpaceSize e -XX:MaxMetaSpaceSize. Estes ajustes são essenciais para otimizar o desempenho
+da aplicação e evitar a exaustão da memória.
+
+-- ----- ----- -----
+10.05. Encadeamento de chamadas de construtores
+
+Sem o encadeamento de construtores, cada construtor em Java deve implementar completamente a lógica de inicialização, levando a duplicação de
+código e dificultando a manutenção. O encadeamento de construtores centraliza a inicialização em um local, reduzindo a duplicação e facilitando
+alterações futuras, tornando o código mais limpo e fácil de gerenciar.
+
+-- ----- ----- -----
+10.06. Diagrama de classes - construtores
+
+Mostrou como monta um construtor no diagrama de classes de UML
+
+-- ----- ----- -----
+10.07. Desafio de construtores
+
+-- ----- ----- -----
+10.08. Modificador final em variáveis de instância
+
+O modificador final em Java é usado para declarar constantes, ou seja, valores que não devem mudar após a sua inicialização. Quando você aplica
+o modificador final a uma variável de instância em uma classe, está indicando que uma vez que essa variável tenha sido atribuída um valor, ela
+não pode ser alterada.
+-- ----- ----- -----
+10.09. Organizando as classes em pacotes
+Mostrou o padrão de pacotes (pastas) que devem ser criados  mantendo os arquivos organizados
+-- ----- ----- -----
+10.10. Importando classes de pacotes
+mostrou como é feito a importanção de pastas em outros arquivos a idea ajuda nisso.
+
+-- ----- ----- -----
+10.11. Modificador de acesso public e default
+
+O modificador de acesso public em Java torna membros de classe (como métodos e variáveis) acessíveis de qualquer outro ponto do programa,
+independente do pacote em que estão. Já o acesso default (quando nenhum modificador é especificado) restringe o acesso aos membros da classe
+apenas às outras classes dentro do mesmo pacote. Esse nível de acesso é útil para encapsular comportamentos internos de um pacote sem expô-los
+para fora dele, facilitando a manutenção e a organização do código.
+-- ----- ----- -----
+10.12. Modificador de acesso private
+
+O modificador de acesso private em Java é utilizado para restringir a visibilidade de campos, métodos e construtores apenas ao escopo da
+própria classe em que são declarados. Isso significa que nenhum outro código fora da classe pode acessar membros privados diretamente, ajudando
+a encapsular e proteger o estado interno da classe. A utilização do private é uma prática essencial para implementar o princípio de
+encapsulamento em programação orientada a objetos, garantindo que o acesso aos dados sensíveis seja controlado e que a integridade dos dados
+seja mantida.
+-- ----- ----- -----
+10.13. Diagrama de classes - visibilidade public, package e private
+
+mostrou o diagrama de classes na UML
+-- ----- ----- -----
+
+10.14. Desafio
+-- ----- ----- -----
+10.15. Importando membros estáticos - static import
+
+A importação estática em Java permite acessar membros estáticos de classes diretamente sem o nome da classe, reduzindo a verbosidade e
+melhorando a legibilidade do código. É útil especialmente para métodos utilitários e constantes frequentemente usados, mas deve ser empregada
+com cautela para evitar confusão e conflitos de nomes. Este recurso facilita a escrita de código mais limpo, porém a clareza do código pode
+ser comprometida se usado indiscriminadamente.
+
+-- ----- ----- -----
+10.16. Múltiplas classes não-públicas em um único arquivo
+
+Em Java, é possível incluir múltiplas classes não-públicas em um único arquivo, permitindo agrupar classes relacionadas que são acessíveis
+apenas dentro de seu pacote. Embora essa prática possa ajudar na organização do código, pode dificultar a manutenção e navegação, especialmente
+em arquivos grandes. Cada arquivo pode conter apenas uma classe pública, cujo nome deve corresponder ao nome do arquivo.
+-- ----- ----- -----
+10.17. Conhecendo a documentação JavaDoc do Java SE
+
+mostrou a documentação do java.
+-- ----- ----- -----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
