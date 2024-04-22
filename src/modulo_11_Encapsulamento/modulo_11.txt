@@ -7,10 +7,12 @@ Módulo 11 - Módulo 11 - Encapsulamento, javabeans e records
 -- ----- ----- -----
 11.1. O problema da falta de encapsulamento
 
-Mostrou na prática os problemas por falta de encapsulamento
+Mostrou na prática os problemas por falta de encapsulamento.
+Sem encapsulamento, o estado interno das classes fica exposto, aumentando o risco de bugs e inconsistências devido à manipulação direta de
+variáveis por classes externas.
 
 -- ----- ----- -----
-10.02. Construtores com parâmetros
+11.2. Implementando encapsulamento
 
 Construtores com parâmetros em Java são usados para inicializar objetos com valores específicos passados como argumentos durante a instanciação.
 Eles permitem que você defina o estado inicial do objeto com base nos valores fornecidos, facilitando a personalização e reutilização do código.
@@ -18,23 +20,20 @@ Ao criar um construtor com parâmetros, você pode definir diferentes formas de 
 flexibilidade no uso da classe em diferentes contextos.
 
 -- ----- ----- -----
-10.03. Sobrecarga de construtores
+11.3. JavaBeans e métodos getters e setters
+JavaBeans são componentes de software em Java que seguem convenções específicas para permitir fácil manipulação, como a implementação de métodos
+getters e setters para acessar e modificar as propriedades privadas de uma classe. Estes métodos garantem o encapsulamento ao controlar como as
+propriedades são acessadas e alteradas, crucial para manter a integridade dos dados. Além disso, JavaBeans devem ter um construtor sem
+argumentos e ser serializáveis, facilitando seu uso em uma variedade de frameworks e ambientes, como desenvolvimento de interfaces gráficas e
+aplicações empresariais.
 
-A sobrecarga de construtores em Java permite ter múltiplos construtores com o mesmo nome, mas com diferentes listas de parâmetros. Isso facilita
-oferecer diversas formas de inicialização para objetos da mesma classe, adaptando-se às necessidades específicas dos usuários. É útil para
-personalizar a criação de objetos com diferentes conjuntos de valores.
-
--- ----- ----- -----
-10.04. Boas práticas - valide os argumentos de construtores
-
-Para configurar a memória Heap da JVM em Java, utilizam-se argumentos de linha de comando: -Xms para o tamanho inicial da Heap, -Xmx para
-o tamanho máximo, e -XX:MinHeapFreeRatio e -XX:MaxHeapFreeRatio para gerenciar a proporção de Heap livre após a coleta de lixo. O tamanho
-inicial e máximo da nova geração podem ser definidos com -XX:NewSize e -XX:MaxNewSize, respectivamente. A partir do Java 8, o PermGen foi
-substituído por Metaspace, ajustável com -XX:MetaSpaceSize e -XX:MaxMetaSpaceSize. Estes ajustes são essenciais para otimizar o desempenho
-da aplicação e evitar a exaustão da memória.
 
 -- ----- ----- -----
-10.05. Encadeamento de chamadas de construtores
+11.4. IntelliJ IDEA gerando getters e setters
+
+Mostrou o uso do atalho de geração de getters e setters do intellij
+-- ----- ----- -----
+11.5. Desafio_ encapsulamento e JavaBeans
 
 Sem o encadeamento de construtores, cada construtor em Java deve implementar completamente a lógica de inicialização, levando a duplicação de
 código e dificultando a manutenção. O encadeamento de construtores centraliza a inicialização em um local, reduzindo a duplicação e facilitando
