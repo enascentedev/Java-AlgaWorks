@@ -1,6 +1,7 @@
 package modulo_10.desafio_01;
 
 public class ContaBancaria {
+
     public ContaBancaria(int numeroDaConta, double saldo) {
         this.numeroDaConta = numeroDaConta;
         this.saldo = saldo;
