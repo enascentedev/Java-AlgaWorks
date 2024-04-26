@@ -40,7 +40,8 @@ código e dificultando a manutenção. O encadeamento de construtores centraliza
 alterações futuras, tornando o código mais limpo e fácil de gerenciar.
 
 -- ----- ----- -----
-10.06. Diagrama de classes - construtores
+11.6. Boas práticas; use métodos de acesso em classes públicas (incluindo Tell Don't Ask)
+Sempre encapsular os objetos para ter uma melhor proteção para quando o projeto crescer, mostrou tecnicas de programção do livro
 
 Mostrou como monta um construtor no diagrama de classes de UML
 
