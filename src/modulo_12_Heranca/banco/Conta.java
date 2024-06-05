@@ -1,6 +1,6 @@
 package modulo_12_Heranca.banco;
 
-public class ContaBancaria {
+public class Conta {
     private Titular titular;
     private int agencia;
     private int numero;
